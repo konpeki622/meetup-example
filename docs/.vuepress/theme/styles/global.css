@@ -1,0 +1,50 @@
+#global-layout {
+    color: #636363;
+}
+
+#global-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    border-bottom: 1px solid #efefef;
+}
+
+#global-header-theme {
+    display: flex;
+    gap: 10px;
+}
+
+#global-header-logo {
+
+}
+
+#global-header-title {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+#global-header-options {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+/* 平板 */
+@media screen and (max-width: 1024px) {
+    #global-header {
+        padding: 0 20px;
+    }
+}
+
+/* 手机 */
+@media screen and (max-width: 750px) {
+    #global-header-title {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    
+    #global-header-options {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+}

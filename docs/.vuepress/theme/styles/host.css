@@ -1,0 +1,77 @@
+.info-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.portrait-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.info-text-name {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+}
+
+.info-text-role {
+    font-size: 0.7rem;
+    margin-top: 6px;
+    letter-spacing: 0.08rem;
+    font-weight: 100;
+}
+
+.info-text-desc {
+    font-size: 0.5rem;
+    margin-top: 6px;
+    font-weight: 300;
+    letter-spacing: 0.04rem;
+}
+
+/* 平板 */
+@media screen and (max-width: 1024px) {
+    .info-container {
+        gap: 30px;
+        margin-bottom: 21px;
+    }
+
+    .portrait-img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+
+}
+
+/* 手机 */
+@media screen and (max-width: 750px) {
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 160px;
+        gap: 20px;
+    }
+
+    .info-detail {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info-text-name {
+        font-size: 0.9rem;
+    }
+
+    .info-text-role {
+        font-size: 0.6rem;
+        margin-top: 5px;
+        text-align: center;
+    }
+}

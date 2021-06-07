@@ -1,0 +1,177 @@
+.theme-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.theme-container hr {
+  border: none;
+  border-top: 1px solid #efefef;
+  overflow: visible;
+  text-align: center;
+  color: #939393;
+  width: 90%;
+  margin: 30px 0;
+}
+
+.theme-container hr::after {
+  content: "Issues";
+  padding: 0 6px;
+  position: relative;
+  top: -12px;
+  font-size: 0.8rem;
+  background-color: #fff;
+  letter-spacing: 0.2rem;
+}
+
+.theme-banner {
+  background: linear-gradient(45deg, #211639, #192d5b);
+  width: 100%;
+  height: calc(80vh - 100px);
+  position: relative;
+}
+
+.theme-banner h1 {
+  position: absolute;
+  top: calc(50% - 50px);
+  color: #fff;
+  left: 50%;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.theme-banner h3 {
+  position: absolute;
+  top: calc(50%);
+  color: #fff;
+  left: 50%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+}
+
+.theme-logo {
+  width: 180px;
+  height: 150px;
+  position: absolute;
+  top: calc(50% - 70px);
+  left: 20%;
+}
+
+.join-link {
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.join-link a {
+  font-size: 1.2rem;
+  color: cadetblue;
+  letter-spacing: 0.04rem;
+}
+
+.join-link a:visited {
+  font-size: 1.2rem;
+  color: cadetblue;
+  letter-spacing: 0.06rem;
+  text-decoration: none;
+}
+
+.join-link a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.join-link p {
+  font-size: 1.2rem;
+  letter-spacing: 0.04rem;
+}
+
+/* 平板 */
+@media screen and (max-width: 1024px) {
+  .theme-container {
+    padding: 0;
+  }
+
+  .theme-banner {
+    width: 100%;
+    height: calc(100vh - 60px);
+  }
+
+  .theme-banner h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    left: 50%;
+    top: calc(50% - 40px)
+  }
+  
+  .theme-banner h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+    left: 50%;
+    top: 50%;
+  }
+  
+  .theme-logo {
+    width: 144px;
+    height: 120px;
+    top: calc(50% - 60px);
+    left: 20%;
+  }
+
+  .join-link {
+    align-self: flex-start;
+    margin-left: 22%;
+    margin-bottom: 30px;
+  }
+}
+
+/* 手机 */
+@media screen and (max-width: 750px) {
+
+  .theme-banner h1 {
+    position: absolute;
+    top: calc(50% + 10px);
+    color: #fff;
+    left: calc(50% - 100px);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+  }
+  
+  .theme-banner h3 {
+    position: absolute;
+    top: calc(50% + 40px);
+    color: #fff;
+    left: calc(50% - 48px);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.08rem;
+  }
+  
+  .theme-logo {
+    width: 144px;
+    height: 120px;
+    position: absolute;
+    top: calc(50% - 140px);
+    left: calc(50% - 72px);
+  }
+
+  .join-link {
+    align-self: center;
+    margin-left: 0;
+  }
+
+  .join-link a {
+    font-size: 0.9rem;
+  }
+
+  .join-link p {
+    font-size: 0.9rem;
+  }
+}
