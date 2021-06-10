@@ -1,177 +1,178 @@
 .theme-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
   box-sizing: border-box;
 }
 
-.theme-container hr {
-  border: none;
-  border-top: 1px solid #efefef;
-  overflow: visible;
-  text-align: center;
-  color: #939393;
-  width: 90%;
-  margin: 30px 0;
+/* theme-body */
+.theme-body {
+  padding: 0 20px;
 }
 
-.theme-container hr::after {
-  content: "Issues";
-  padding: 0 6px;
-  position: relative;
-  top: -12px;
-  font-size: 0.8rem;
-  background-color: #fff;
-  letter-spacing: 0.2rem;
+.theme-body p {
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 0.04rem;
 }
 
+/* theme-title */
+.theme-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.theme-title p {
+  width: 8px;
+  height: 20px;
+  background-color: #3d4a5c;
+}
+
+.theme-title h2 {
+  justify-self: flex-start;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #73b686;
+}
+
+/* theme-banner */
 .theme-banner {
   background: linear-gradient(45deg, #211639, #192d5b);
   width: 100%;
-  height: calc(80vh - 100px);
+  height: 36vh;
+  min-height: 240px;
   position: relative;
 }
 
 .theme-banner h1 {
   position: absolute;
-  top: calc(50% - 50px);
+  top: 50%;
+  left: calc(50% - 7.7rem);
   color: #fff;
-  left: 50%;
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-}
-
-.theme-banner h3 {
-  position: absolute;
-  top: calc(50%);
-  color: #fff;
-  left: 50%;
   font-size: 1.4rem;
-  font-weight: 400;
-  letter-spacing: 0.08rem;
+  font-weight: 600;
+  /* letter-spacing: 0.1rem; */
 }
 
-.theme-logo {
-  width: 180px;
-  height: 150px;
+.theme-banner div {
+  width: 18rem;
+  box-sizing: border-box;
+  padding: 0.6rem 0.5rem;
   position: absolute;
-  top: calc(50% - 70px);
-  left: 20%;
-}
-
-.join-link {
-  margin-bottom: 80px;
+  top: calc(50% + 60px);
+  left: calc(50% - 9rem);
   display: flex;
-  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.join-link a {
-  font-size: 1.2rem;
-  color: cadetblue;
+.theme-banner div>a {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
   letter-spacing: 0.04rem;
 }
 
-.join-link a:visited {
-  font-size: 1.2rem;
-  color: cadetblue;
-  letter-spacing: 0.06rem;
+.theme-banner div>a:visited {
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 0.04rem;
   text-decoration: none;
 }
 
-.join-link a:hover {
+.theme-banner div:hover {
   cursor: pointer;
-  text-decoration: underline;
 }
 
-.join-link p {
-  font-size: 1.2rem;
-  letter-spacing: 0.04rem;
+/* theme-logo */
+.theme-logo {
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 60px);
 }
 
 /* 平板 */
-@media screen and (max-width: 1024px) {
-  .theme-container {
-    padding: 0;
-  }
+@media screen and (max-width: 960px) {
 
+  /* theme-banner */
   .theme-banner {
-    width: 100%;
-    height: calc(100vh - 60px);
+    height: 40vh;
+    min-height: 300px;
+    position: relative;
   }
 
+  /* theme-banner */
   .theme-banner h1 {
-    font-size: 1.4rem;
-    font-weight: 600;
-    letter-spacing: 0.08rem;
-    left: 50%;
-    top: calc(50% - 40px)
-  }
-  
-  .theme-banner h3 {
-    font-size: 1.1rem;
-    font-weight: 400;
-    letter-spacing: 0.08rem;
-    left: 50%;
-    top: 50%;
-  }
-  
-  .theme-logo {
-    width: 144px;
-    height: 120px;
-    top: calc(50% - 60px);
-    left: 20%;
+    font-size: 1.2rem;
+    left: calc(50% - 6.8rem);
   }
 
-  .join-link {
-    align-self: flex-start;
-    margin-left: 22%;
-    margin-bottom: 30px;
+  /* theme-logo */
+  .theme-logo {
+    width: 108px;
+    height: 90px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 54px);
   }
 }
 
 /* 手机 */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 450px) {
 
-  .theme-banner h1 {
-    position: absolute;
-    top: calc(50% + 10px);
-    color: #fff;
-    left: calc(50% - 100px);
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.08rem;
+  /* theme-banner */
+  .theme-banner {
+    height: 100vw;
+    min-height: 300px;
+    position: relative;
   }
-  
-  .theme-banner h3 {
-    position: absolute;
-    top: calc(50% + 40px);
-    color: #fff;
-    left: calc(50% - 48px);
+
+  .theme-banner div {
+    width: 14rem;
+    padding: 0.6rem 0.5rem;
+    left: calc(50% - 7rem);
+  }
+
+  .theme-banner div>a {
+    font-size: 0.7rem;
+  }
+
+  .theme-banner div>a:visited {
+    font-size: 0.7rem;
+  }
+
+  /* theme-title */
+  .theme-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .theme-title p {
+    width: 6px;
+    height: 16px;
+    background-color: #3d4a5c;
+  }
+
+  .theme-title h2 {
+    justify-self: flex-start;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #73b686;
+  }
+
+  /* theme-body */
+  .theme-body {
+    padding: 0 20px;
+  }
+
+  .theme-body p {
     font-size: 0.8rem;
-    font-weight: 400;
-    letter-spacing: 0.08rem;
-  }
-  
-  .theme-logo {
-    width: 144px;
-    height: 120px;
-    position: absolute;
-    top: calc(50% - 140px);
-    left: calc(50% - 72px);
-  }
-
-  .join-link {
-    align-self: center;
-    margin-left: 0;
-  }
-
-  .join-link a {
-    font-size: 0.9rem;
-  }
-
-  .join-link p {
-    font-size: 0.9rem;
   }
 }

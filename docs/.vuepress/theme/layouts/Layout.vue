@@ -1,82 +1,81 @@
 <template>
-  <div class="theme-container">
-    <!-- 单个主讲人时打开注释 -->
+  <section class="theme-container">
     <div class="theme-banner">
       <img src="../../public/v-logo.png" class="theme-logo" />
-      <h1>Meetup in Shenzhen</h1>
-      <h3>June 5th, 2021</h3>
+      <h1>VUE SHENZHEN · 深圳</h1>
+      <div>
+        <a>Register now · 立刻报名</a>
+      </div>
     </div>
-    <!-- 单个主讲人时取消注释 -->
-    <!-- <author-info /> -->
-    <!-- <hr /> -->
-    <topic-list :list="topicList" />
-    <div class="join-link">
-      <a>Click here</a>
-      <p>, join our net meetup!</p>
+    <div class="theme-body">
+      <div class="theme-title">
+        <p></p>
+        <h2>LOCATION</h2>
+      </div>
+      <p>{{ time }} | {{ location }}</p>
+      <div class="theme-title">
+        <p></p>
+        <h2>SCHEDULE</h2>
+      </div>
+      <topic-list :list="topicList" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
 import TopicList from "../components/TopicList";
-import AuthorInfo from "../components/AuthorInfo";
 import portraitImg from "../../public/portrait-example1.jpg";
 
 export default {
   components: {
     TopicList,
-    AuthorInfo,
   },
 
   data() {
     return {
+      location: "深圳华为坂田基地F3",
+      time: "2021年6月1日",
       topicList: [
         {
           id: "1",
-          topicTitleEn: "Online Meetup with Evan You",
-          topicTitle: "在线对话",
-          scheduleDateEn: "Sunday, May 23th, 2021",
-          scheduleDate: "2021年5月23日，周日",
-          scheduleTime: "7:00PM - 9:00PM",
-          meetingPlaceEn: "ONLINE ZOOM VIDEO CONFERENCE",
-          meetingPlace: "ZOOM在线会议",
+          topicTitle: "Vite，下一代Web工具",
+          time: "9:00AM-10:00AM",
+          desc: "分享内容主要是现有Web开发的痛点以及Vite的解决方案。",
           host: {
             portraitUrl: portraitImg,
             hostName: "李梦媛",
+            joinWay: "远程参与",
             hostNameEn: "Mengyuan",
-            hostDesc: "开源能力中心 | Vue.js开发者",
+            hostDesc: "前Google Creative Lab成员",
+            hostRole: "Vue.js开发者",
           },
         },
         {
           id: "2",
-          topicTitleEn: "Online Meetup with Evan You",
-          topicTitle: "在线对话",
-          scheduleDateEn: "Sunday, May 23th, 2021",
-          scheduleDate: "2021年5月23日，周日",
-          scheduleTime: "7:00PM - 9:00PM",
-          meetingPlaceEn: "ONLINE ZOOM VIDEO CONFERENCE",
-          meetingPlace: "ZOOM在线会议",
+          topicTitle: "Vite，下一代Web工具",
+          time: "10:00AM-0:00PM",
+          desc: "分享内容主要是现有Web开发的痛点以及Vite的解决方案。",
           host: {
             portraitUrl: portraitImg,
             hostName: "李梦媛",
+            joinWay: "远程参与",
             hostNameEn: "Mengyuan",
-            hostDesc: "开源能力中心 | Vue.js开发者",
+            hostDesc: "前Google Creative Lab成员",
+            hostRole: "Vue.js开发者",
           },
         },
         {
           id: "3",
-          topicTitleEn: "Online Meetup with Evan You",
-          topicTitle: "在线对话",
-          scheduleDateEn: "Sunday, May 23th, 2021",
-          scheduleDate: "2021年5月23日，周日",
-          scheduleTime: "7:00PM - 9:00PM",
-          meetingPlaceEn: "ONLINE ZOOM VIDEO CONFERENCE",
-          meetingPlace: "ZOOM在线会议",
+          topicTitle: "Vite，下一代Web工具",
+          time: "2:00PM-3:00PM",
+          desc: "分享内容主要是现有Web开发的痛点以及Vite的解决方案。",
           host: {
             portraitUrl: portraitImg,
             hostName: "李梦媛",
+            joinWay: "远程参与",
             hostNameEn: "Mengyuan",
-            hostDesc: "开源能力中心 | Vue.js开发者",
+            hostDesc: "前Google Creative Lab成员",
+            hostRole: "Vue.js开发者",
           },
         },
       ],

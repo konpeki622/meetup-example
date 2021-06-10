@@ -2,19 +2,22 @@
     display: flex;
     width: 100%;
     align-items: center;
-    margin-top: 12vh;
-    margin-bottom: 10vh;
+    margin: 1vh 0;
 }
 
 .topic-info-box {
     width: 40%;
-    padding: 0 30px;
     box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-right: 20px;
+    min-width: 320px;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .topic-info-box:last-child {
     border: 0;
+    margin-right: 0;
 }
 
 .topic-info-box p {
@@ -27,51 +30,42 @@
 }
 
 .topic-info-box h1 {
-    font-size: 1.5rem;
-    margin: 5px 0;
+    font-size: 1.3rem;
+    margin: 0;
     letter-spacing: 0.02rem;
     font-weight: 400;
 }
 
 .topic-info-box h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin: 5px 0;
     font-weight: 100;
     letter-spacing: 0.04rem;
 }
 
 /* 平板 */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 960px) {
     .topic-container {
         flex-direction: column;
-        width: 80%;
         align-items: center;
     }
 
     .topic-info-box {
         width: 100%;
-        padding: 30px 15%;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         border-right: 0;
+        margin-top: 10px;
+        padding: 20px 0 30px 0;
     }
 
-    .topic-info-box:last-child {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    .topic-info-box:first-child {
+        margin-top: 0;
+        padding-top: 0;
     }
 }
 
 /* 手机 */
-@media screen and (max-width: 750px) {
-    .topic-container {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .topic-info-box {
-        width: auto;
-        padding: 30px 0;
-    }
+@media screen and (max-width: 450px) {
 
     .topic-info-box p {
         font-size: 0.8rem;
@@ -81,16 +75,17 @@
     .topic-info-box h1 {
         font-size: 1.1rem;
         margin: 5px 0;
+        text-align: center;
     }
 
     .topic-info-box h3 {
         font-size: 0.8rem;
         margin: 5px 0;
+        text-align: center;
     }
 
-    .topic-divider {
-        margin: 30px 0;
-        height: 1px;
-        width: 100%;
+    .topic-info-box div {
+        margin-top: 5px;
+        margin-bottom: 15px;
     }
 }
