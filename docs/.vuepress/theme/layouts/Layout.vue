@@ -1,7 +1,8 @@
 <template>
   <section class="theme-container">
     <div class="theme-banner">
-      <img src="../../public/v-logo.png" class="theme-logo" />
+      <img src="../../public/banner.png" class="theme-banner-background" />
+      <img src="../../public/v-logo.png" class="theme-banner-logo" />
       <h1>VUE SHENZHEN · 深圳</h1>
       <div>
         <a>Register now · 立刻报名</a>
@@ -12,12 +13,14 @@
         <p></p>
         <h2>LOCATION</h2>
       </div>
-      <p>{{ time }} | {{ location }}</p>
+      <!-- <p>{{ time }} | {{ location }}</p> -->
+      <p>敬请期待</p>
       <div class="theme-title">
         <p></p>
         <h2>SCHEDULE</h2>
       </div>
-      <topic-list :list="topicList" />
+      <!-- <topic-list :list="topicList" /> -->
+      <p>敬请期待</p>
     </div>
   </section>
 </template>

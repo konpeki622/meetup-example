@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <!-- 单个主讲人时注释掉 -->
     <topic-host :host="topic.host" />
     <div>
@@ -9,7 +9,7 @@
       <h3>{{ topic.desc }}</h3>
       <h3>{{ topic.time }}</h3>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

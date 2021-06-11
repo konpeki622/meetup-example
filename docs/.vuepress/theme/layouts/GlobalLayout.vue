@@ -3,9 +3,9 @@
     <header id="global-header">
       <div id="global-header-theme">
         <!-- <img id="global-header-logo" /> -->
-        <h1 id="global-header-title">VUE SHENZHEN</h1>
+        <h1 id="global-header-title">VUE SHENZHEN · 深圳</h1>
       </div>
-      <h1 id="global-header-options">Contact</h1>
+      <!-- <h1 id="global-header-options">Contact</h1> -->
     </header>
     <component :is="layout"></component>
   </div>

@@ -55,6 +55,7 @@
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
         border-right: 0;
         margin-top: 10px;
+        margin-right: 0;
         padding: 20px 0 30px 0;
     }
 
@@ -66,6 +67,10 @@
 
 /* 手机 */
 @media screen and (max-width: 450px) {
+
+    .topic-info-box {
+        min-width: 0;
+    }
 
     .topic-info-box p {
         font-size: 0.8rem;
