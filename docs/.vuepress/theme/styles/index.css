@@ -40,7 +40,7 @@
 .theme-banner {
   /* background: linear-gradient(45deg, #211639, #192d5b); */
   width: 100%;
-  height: 36vh;
+  height: 30vh;
   min-height: 240px;
   position: relative;
 }
@@ -54,26 +54,11 @@
 .theme-banner h1 {
   position: absolute;
   top: 50%;
-  left: calc(50% - 7.7rem);
+  left: calc(50% - 7.3rem);
   color: rgba(255, 255, 255, 0.95);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 600;
   /* letter-spacing: 0.1rem; */
-}
-
-.theme-banner div {
-  width: 18rem;
-  box-sizing: border-box;
-  padding: 0.6rem 0.5rem;
-  position: absolute;
-  top: calc(50% + 60px);
-  left: calc(50% - 9rem);
-  display: flex;
-  justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 7px;
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .theme-banner div>a {
@@ -81,6 +66,20 @@
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.04rem;
+  text-decoration: none;
+  
+  width: 18rem;
+  box-sizing: border-box;
+  padding: 0.6rem 0.5rem;
+  position: absolute;
+  top: calc(50% + 60px);
+  left: calc(50% - 9rem);
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .theme-banner div>a:visited {
@@ -103,12 +102,35 @@
   left: calc(50% - 60px);
 }
 
+.theme-bottom {
+  padding: 10px 0;
+  /* padding: 40px 0; */
+}
+
+.theme-bottom-img {
+  width: 100%;
+  height: auto;
+}
+
+.theme-bottom-slogan {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translate(-15px, -12px);
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.theme-bottom-img--mobile {
+  display: none;
+}
+
 /* 平板 */
 @media screen and (max-width: 960px) {
 
   /* theme-banner */
   .theme-banner {
-    height: 40vh;
+    height: 36vh;
     min-height: 300px;
     position: relative;
   }
@@ -127,6 +149,24 @@
     top: calc(50% - 110px);
     left: calc(50% - 54px);
   }
+
+  .theme-bottom {
+    padding: 0;
+  }
+  
+  .theme-bottom-img {
+    display: none;
+  }
+
+  .theme-bottom-slogan {
+    display: none;
+  }
+  
+  .theme-bottom-img--mobile {
+    display: inline;
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* 手机 */
@@ -139,14 +179,11 @@
     position: relative;
   }
 
-  .theme-banner div {
+  .theme-banner div>a {
+    font-size: 0.7rem;
     width: 14rem;
     padding: 0.6rem 0.5rem;
     left: calc(50% - 7rem);
-  }
-
-  .theme-banner div>a {
-    font-size: 0.7rem;
   }
 
   .theme-banner div>a:visited {
@@ -180,5 +217,9 @@
 
   .theme-body p {
     font-size: 0.8rem;
+  }
+
+  .theme-bottom {
+    padding-top: 20px;
   }
 }

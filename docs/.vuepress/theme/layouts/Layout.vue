@@ -1,11 +1,11 @@
 <template>
   <section class="theme-container">
     <div class="theme-banner">
-      <img src="../../public/banner.png" class="theme-banner-background" />
+      <img src="../../public/banner.jpeg" class="theme-banner-background" />
       <img src="../../public/v-logo.png" class="theme-banner-logo" />
       <h1>VUE SHENZHEN · 深圳</h1>
       <div>
-        <a>Register now · 立刻报名</a>
+        <a href="https://www.huodongxing.com/people/4924099457396" target="_blank">Register now · 立刻报名</a>
       </div>
     </div>
     <div class="theme-body">
@@ -14,14 +14,19 @@
         <h2>LOCATION</h2>
       </div>
       <!-- <p>{{ time }} | {{ location }}</p> -->
-      <p>敬请期待</p>
+      <p>深圳市龙岗坂田天安云谷</p>
       <div class="theme-title">
         <p></p>
         <h2>SCHEDULE</h2>
       </div>
       <!-- <topic-list :list="topicList" /> -->
-      <p>敬请期待</p>
+      <p>敬请期待</p>     
     </div>
+    <div class="theme-bottom">
+        <img src="../../public/vuesz_code.gif" class="theme-bottom-img" />
+        <img src="../../public/vuesz_code_mobile.png" class="theme-bottom-img--mobile" />
+        <div class="theme-bottom-slogan">{{contact}}</div>
+      </div>
   </section>
 </template>
 
@@ -38,6 +43,7 @@ export default {
     return {
       location: "深圳华为坂田基地F3",
       time: "2021年6月1日",
+      contact: "扫码加入VUE SHENZHEN微信群",
       topicList: [
         {
           id: "1",
