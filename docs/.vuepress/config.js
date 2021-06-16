@@ -1,12 +1,4 @@
 module.exports = {
     title: 'VUE SHENZHEN',
-    description: 'Just playing around',
-    themeConfig: {
-        nav: [
-            {
-                text: "contact",
-                link: "/"
-            }
-        ]
-    }
+    description: '深圳Vue.js meetup活动',
 }

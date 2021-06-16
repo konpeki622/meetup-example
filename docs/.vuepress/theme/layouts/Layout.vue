@@ -24,7 +24,7 @@
     </div>
     <div class="theme-bottom">
         <img src="../../public/vuesz_code.gif" class="theme-bottom-img" />
-        <img src="../../public/vuesz_code_mobile.png" class="theme-bottom-img--mobile" />
+        <img src="../../public/vuesz_code_mobile.gif" class="theme-bottom-img--mobile" />
         <div class="theme-bottom-slogan">{{contact}}</div>
       </div>
   </section>
