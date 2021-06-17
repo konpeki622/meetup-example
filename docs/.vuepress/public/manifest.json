@@ -1,0 +1,23 @@
+{
+    "name": "Vue Shenzhen",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Vue.js Meetup in Shenzhen",
+    "icons": [
+        {"src": "/assets/images/v-logo.png"},
+        {"src": "/assets/images/v-logo.png"},
+        {"src": "/assets/images/v-logo.png"}
+    ],
+    "default_locale": "en",
+    "minimum_chrome_version": "1.0",
+    "offline_enabled": true,
+    "omnibox": {
+        "keyword": "vueshenzhen"
+    },
+    "plugins": [
+        {
+            "path": "extension_plugin.dll",
+            "public": true
+        }
+    ]
+}
