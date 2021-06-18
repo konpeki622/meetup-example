@@ -27,6 +27,11 @@ module.exports = {
             name: 'baidu-site-verification',
             content: 'code-1ieWIYBkwB'
         }],
+        // google推送
+        ['meta', {
+            name: 'google-site-verification',
+            content: 'UFFfhTzuoTYnMv5Pm34tNrw59qR_rm5KpPG3adg['
+        }],
         ['script', {
             src: "/assets/js/autopush-baidu.js"
         }]
