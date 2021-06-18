@@ -3,57 +3,73 @@
     <div id="theme-banner">
       <img
         alt="深圳"
-        src="/assets/images/banner.jpeg"
-        class="theme-banner-background"
+        src="/assets/images/banner-back.png"
+        class="banner-background-img"
       />
-      <img
-        alt="vue.js"
-        src="/assets/images/v-logo.png"
-        class="theme-banner-logo"
-      />
-      <h1>VUE SHENZHEN · 深圳</h1>
-      <div>
-        <a
-          href="https://www.huodongxing.com/people/4924099457396"
-          target="_blank"
-          rel="”nofollow”"
-          >Register now · 立刻报名</a
-        >
+      <div class="banner-container">
+        <img
+          id="banner"
+          alt="深圳"
+          src="/assets/images/banner-main.png"
+          class="banner-img"
+        />
+        <img alt="vue.js" src="/assets/images/v-logo.png" class="banner-logo" />
+        <h1>VUE SHENZHEN · 深圳</h1>
+        <h5>meetup</h5>
+        <div>
+          <a
+            href="https://www.huodongxing.com/people/4924099457396"
+            target="_blank"
+            rel="”nofollow”"
+            >Register now · 立刻报名</a
+          >
+        </div>
       </div>
     </div>
-    <div id="theme-divider"></div>
     <div id="theme-body">
-      <div class="theme-title">
-        <h2>LOCATION · 举办地点</h2>
+      <div class="body-divider-back"></div>
+      <div class="body-divider"></div>
+      <div class="body-container">
+        <img src="/assets/images/body-top.png" class="body-top-img" />
+        <div class="body-box">
+          <h2>ABOUT US · 关于我们</h2>
+          <p>{{ description }}</p>
+          <h2>TIME · 举办时间</h2>
+          <p>
+            <span
+              ><img
+                src="/assets/images/time-icon.png"
+                class="body-box-time-icon" /></span
+            ><span>{{ time }}</span>
+          </p>
+          <h2>LOCATION · 举办地点</h2>
+          <p>{{ location }}</p>
+          <h2>SCHEDULE · 活动日程</h2>
+          <!-- <topic-list :list="topicList" /> -->
+          <p>敬请期待</p>
+          <h2>GUEST SPEAKER · 演讲嘉宾</h2>
+          <p>敬请期待</p>
+          <h2>CONTACT US · 联系我们</h2>
+          <div class="body-box-code">
+            <img
+              alt="vueshenzhen"
+              src="/assets/images/vuesz-code-mobile.gif"
+              class="body-box-code-img"
+            />
+            <!-- <img
+              alt="vueshenzhen"
+              src="/assets/images/vuesz-code-mobile.gif"
+              class="body-box-code-img--mobile"
+            /> -->
+            <div class="body-box-code-slogan">{{ contact }}</div>
+          </div>
+          <div class="body-box-sponsor">
+            <h2>BECOME A SPONSOR · 成为赞助者</h2>
+            <p>虚位以待</p>
+          </div>
+        </div>
+        <img src="/assets/images/body-bottom.png" class="body-bottom-img" />
       </div>
-      <!-- <p>{{ time }} | {{ location }}</p> -->
-      <p>深圳市龙岗坂田天安云谷</p>
-      <div class="theme-title">
-        <h2>SCHEDULE · 活动日程</h2>
-      </div>
-      <!-- <topic-list :list="topicList" /> -->
-      <p>敬请期待</p>
-      <div class="theme-title">
-        <h2>GUEST SPEAKER·演讲嘉宾</h2>
-      </div>
-      <p>敬请期待</p>
-    </div>
-
-    <div class="theme-title">
-      <h2>CONTACT US·联系我们</h2>
-    </div>
-    <div class="theme-bottom">
-      <img
-        alt="vueshenzhen"
-        src="/assets/images/vuesz_code.gif"
-        class="theme-bottom-img"
-      />
-      <img
-        alt="vueshenzhen"
-        src="/assets/images/vuesz_code_mobile.gif"
-        class="theme-bottom-img--mobile"
-      />
-      <div class="theme-bottom-slogan">{{ contact }}</div>
     </div>
   </section>
 </template>
@@ -69,9 +85,11 @@ export default {
 
   data() {
     return {
-      location: "深圳华为坂田基地F3",
-      time: "2021年6月1日",
-      contact: "扫码加入VUE SHENZHEN微信群",
+      description:
+        "Vue Shenzhen由一群Vue.js开发爱好者自发成立的位于深圳的本地组织。旨在将热情的Vue.js开发人员联系起来共同学习和成长。",
+      location: "敬请期待",
+      time: "2021.7.17 9:00AM-18:00PM",
+      contact: "扫码关注VUE SHENZHEN公众号",
       // topicList: [
       //   {
       //     id: "1",

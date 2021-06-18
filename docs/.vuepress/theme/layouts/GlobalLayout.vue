@@ -21,7 +21,7 @@ export default {
         }
         return "Layout";
       }
-      return "NotFount";
+      return "NotFound";
     },
   },
 };
