@@ -12,7 +12,7 @@
 .banner-background-img {
   object-fit: cover;
   width: 100%;
-  min-height: 500px;
+  min-height: 450px;
   height: 60vh;
 }
 
@@ -29,7 +29,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  min-height: 300px;
+  min-height: 270px;
+  box-shadow: 0 -20px 15px -20px rgba(0, 0, 0, 0.3);
 }
 
 .banner-container h1 {
@@ -115,7 +116,7 @@
   background-color: #41b883;
   height: 18px;
   width: 66.97%;
-    left: 16.2%;
+  left: 16.2%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   position: absolute;
   z-index: 99;
@@ -146,7 +147,7 @@
   position: absolute;
   z-index: 1;
   width: 135%;
-  height: auto;
+  height: 25%;
   bottom: 0;
   left: -35%;
 }
@@ -205,7 +206,29 @@
 }
 
 .body-box-sponsor {
-  margin-top: calc(4rem + 18vw);
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 28%;
+  width: 100%;
+}
+
+.body-box-sponsor p {
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 0.04rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.body-box-sponsor h2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 1rem 0;
 }
 
 /* 平板 */
@@ -216,18 +239,19 @@
 
   .banner-img {
     min-height: 300px;
+    box-shadow: 0 100px 15px rgba(0, 0, 0, 0.3);
   }
 
   .body-divider {
-    width: 69.5%;
-    left: 15.25%;
+    width: 70%;
+    left: 15%;
     transform: translate(0, -1rem);
   }
 
   .body-container {
-    width: 69.5%;
+    width: 70%;
     transform: translate(0, -1rem);
-    height: calc(56rem + 50vw)
+    height: calc(50rem + 50vw)
   }
 
   .banner-logo {
@@ -238,7 +262,12 @@
     left: calc(50% - 54px);
   }
 
+  .body-box p {
+    font-size: 0.8rem;
+  }
+
   .body-box h2 {
+    font-size: 1rem;
     margin: 2.1rem 0;
   }
 
@@ -247,20 +276,25 @@
     font-size: 0.5rem;
   }
 
-  .body-box-sponsor {
-    margin-top: calc(2rem + 14vw);
+  .body-box-sponsor p {
+    font-size: 0.8rem;
+  }
+  
+  .body-box-sponsor h2 {
+    font-size: 1rem;
   }
 
 }
 
 /* 手机 */
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 650px) {
   .banner-background-img {
     min-height: 300px;
   }
 
   .banner-img {
     min-height: 180px;
+    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5);
   }
 
   .banner-container {
@@ -342,7 +376,11 @@
     font-size: 0.7rem;
   }
 
-  .body-box-sponsor {
-    margin-top: calc(1.8rem + 19vw);
+  .body-box-sponsor p {
+    font-size: 0.6rem;
+  }
+  
+  .body-box-sponsor h2 {
+    font-size: 0.7rem;
   }
 }

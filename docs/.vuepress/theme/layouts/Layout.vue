@@ -63,10 +63,10 @@
             /> -->
             <div class="body-box-code-slogan">{{ contact }}</div>
           </div>
-          <div class="body-box-sponsor">
-            <h2>BECOME A SPONSOR · 成为赞助者</h2>
-            <p>虚位以待</p>
-          </div>
+        </div>
+        <div class="body-box-sponsor">
+          <h2>BECOME A SPONSOR · 成为赞助者</h2>
+          <p>虚位以待</p>
         </div>
         <img src="/assets/images/body-bottom.png" class="body-bottom-img" />
       </div>
