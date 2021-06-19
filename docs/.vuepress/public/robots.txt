@@ -1,21 +1,11 @@
 User-agent: *
-
 Disallow: /admin/
- 
 Disallow: /require/
- 
 Disallow: /attachment/
- 
 Disallow: /images/
- 
 Disallow: /data/
- 
 Disallow: /template/
- 
 Disallow: /css/
- 
 Disallow: /lang/
- 
 Disallow: /script/
-
 Disallow: /js/
