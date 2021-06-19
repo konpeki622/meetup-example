@@ -38,7 +38,7 @@ module.exports = {
     ],
     plugins: [
         ['sitemap', {
-            hostname: "http://vueshenzhen.com",
+            hostname: "https://vueshenzhen.com",
             // 排除无实际内容的页面
             exclude: ["/404.html"]
         }],

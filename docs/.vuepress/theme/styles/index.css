@@ -38,8 +38,8 @@
   width: 100%;
   text-align: center;
   color: #333366;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 600;
   letter-spacing: 0.08rem;
 }
 
@@ -211,11 +211,11 @@
 /* 平板 */
 @media screen and (max-width: 1024px) {
   .banner-background-img {
-    min-height: 0;
+    min-height: 500px;
   }
 
   .banner-img {
-    min-height: 0;
+    min-height: 300px;
   }
 
   .body-divider {
@@ -227,19 +227,7 @@
   .body-container {
     width: 69.5%;
     transform: translate(0, -1rem);
-    height: calc(59rem + 42vw)
-  }
-
-  .banner-container h1 {
-    top: 44%;
-  }
-
-  .banner-container h5 {
-    top: 50%;
-  }
-
-  .banner-container div>a {
-    top: 62%;
+    height: calc(56rem + 50vw)
   }
 
   .banner-logo {
@@ -260,13 +248,21 @@
   }
 
   .body-box-sponsor {
-    margin-top: 16vw;
+    margin-top: calc(2rem + 14vw);
   }
 
 }
 
 /* 手机 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
+  .banner-background-img {
+    min-height: 300px;
+  }
+
+  .banner-img {
+    min-height: 180px;
+  }
+
   .banner-container {
     width: 90%;
     left: 5%;
@@ -281,7 +277,7 @@
   .body-container {
     width: 90%;
     transform: translate(0, -1rem);
-    height: calc(42rem + 54vw)
+    height: calc(40rem + 70vw)
   }
 
   .banner-background-img {
@@ -347,6 +343,6 @@
   }
 
   .body-box-sponsor {
-    margin-top: 19vw;
+    margin-top: calc(1.8rem + 19vw);
   }
 }
