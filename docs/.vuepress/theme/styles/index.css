@@ -129,7 +129,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(60rem + 50vw);
+  height: calc(64rem + 50vw);
   overflow: hidden;
 }
 
@@ -385,10 +385,12 @@
 
   .body-box-sponsor p {
     font-size: 0.7rem;
+    margin: 0.3rem 0;
   }
 
   .body-box-sponsor h2 {
     font-size: 0.7rem;
+    margin: 0.3rem 0;
   }
 
   .body-bottom-img {

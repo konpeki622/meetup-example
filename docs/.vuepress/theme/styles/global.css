@@ -15,9 +15,7 @@
     gap: 10px;
 }
 
-#global-header-logo {
-
-}
+#global-header-logo {}
 
 #global-header-title {
     font-size: 1.2rem;
@@ -45,12 +43,12 @@
         padding: 0 10px;
         border-bottom: 1px solid #efefef;
     }
-    
+
     #global-header-title {
         font-size: 0.9rem;
         line-height: 0.9rem;
     }
-    
+
     #global-header-options {
         font-size: 0.8rem;
         line-height: 0.9rem;
