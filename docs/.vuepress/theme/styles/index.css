@@ -13,7 +13,7 @@
   object-fit: cover;
   width: 100%;
   min-height: 450px;
-  height: 60vh;
+  height: 50vh;
 }
 
 .banner-container {
@@ -22,7 +22,6 @@
   left: 15%;
   width: 70%;
   height: 85%;
-  object-fit: cover;
 }
 
 .banner-img {
@@ -30,12 +29,12 @@
   height: 100%;
   object-fit: cover;
   min-height: 270px;
-  box-shadow: 0 -20px 15px -20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 .banner-container h1 {
   position: absolute;
-  top: 46%;
+  top: 48%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -46,7 +45,7 @@
 
 .banner-container h5 {
   position: absolute;
-  top: 51%;
+  top: 54%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -66,7 +65,7 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: 66%;
+  top: 70%;
   left: calc(50% - 180px);
   text-align: center;
   vertical-align: middle;
@@ -92,7 +91,7 @@
   width: 110px;
   height: 110px;
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: calc(50% - 55px);
 }
 
@@ -112,11 +111,11 @@
 }
 
 .body-divider {
-  transform: translate(0.02%, -1rem);
+  transform: translateY(-1rem);
   background-color: #41b883;
   height: 18px;
-  width: 66.97%;
-  left: 16.2%;
+  width: 70%;
+  left: 15%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   position: absolute;
   z-index: 99;
@@ -124,13 +123,13 @@
 }
 
 .body-container {
-  transform: translate(-0.44%, -1rem);
-  width: 66.974%;
+  transform: translateY(-1rem);
+  width: 70%;
   margin: 0 auto;
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(66rem + 60vw);
+  height: calc(60rem + 50vw);
   overflow: hidden;
 }
 
@@ -147,7 +146,7 @@
   position: absolute;
   z-index: 1;
   width: 135%;
-  height: 25%;
+  height: 40vw;
   bottom: 0;
   left: -35%;
 }
@@ -189,18 +188,18 @@
 .body-box-code {
   padding: 10px 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .body-box-code-img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
 .body-box-code-slogan {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  transform: translate(0, -0.8rem);
+  transform: translateY(-30%);
   font-size: 0.9rem;
   font-weight: 300;
 }
@@ -213,7 +212,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 28%;
+  height: 45vw;
   width: 100%;
 }
 
@@ -233,33 +232,40 @@
 
 /* 平板 */
 @media screen and (max-width: 1024px) {
-  .banner-background-img {
-    min-height: 500px;
+
+  .banner-logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    left: calc(50% - 50px);
   }
 
-  .banner-img {
-    min-height: 300px;
-    box-shadow: 0 100px 15px rgba(0, 0, 0, 0.3);
+  .banner-container h1 {
+    font-size: 1.3rem;
   }
 
-  .body-divider {
-    width: 70%;
-    left: 15%;
-    transform: translate(0, -1rem);
+  .banner-container h5 {
+    font-size: 1rem;
+  }
+
+  .banner-container div>a {
+    font-size: 1rem;
+    width: 320px;
+    left: calc(50% - 160px);
+  }
+
+  .banner-container div>a:hover {
+    font-size: 1rem;
+  }
+
+  .banner-container div>a:visited {
+    font-size: 1rem;
+
   }
 
   .body-container {
-    width: 70%;
-    transform: translate(0, -1rem);
     height: calc(50rem + 50vw)
-  }
-
-  .banner-logo {
-    width: 108px;
-    height: 108px;
-    position: absolute;
-    top: 25%;
-    left: calc(50% - 54px);
   }
 
   .body-box p {
@@ -271,15 +277,18 @@
     margin: 2.1rem 0;
   }
 
+  .body-box-code-img {
+    width: 100%;
+  }
+
   .body-box-code-slogan {
-    transform: translate(0, -0.6rem);
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   .body-box-sponsor p {
     font-size: 0.8rem;
   }
-  
+
   .body-box-sponsor h2 {
     font-size: 1rem;
   }
@@ -287,14 +296,19 @@
 }
 
 /* 手机 */
-@media screen and (max-width: 650px) {
-  .banner-background-img {
-    min-height: 300px;
+@media screen and (max-width: 500px) {
+  .banner-container h1 {
+    font-size: 1rem;
+    top: 42%;
+  }
+
+  .banner-container h5 {
+    top: 48%;
+    font-size: 0.7rem;
   }
 
   .banner-img {
     min-height: 180px;
-    box-shadow: 0 20px 15px rgba(0, 0, 0, 0.5);
   }
 
   .banner-container {
@@ -305,33 +319,27 @@
   .body-divider {
     width: 90%;
     left: 5%;
-    transform: translate(0, -1rem);
+    transform: translateY(-1rem);
   }
 
   .body-container {
     width: 90%;
-    transform: translate(0, -1rem);
-    height: calc(40rem + 70vw)
+    transform: translateY(-1rem);
+    height: calc(38rem + 70vw)
   }
 
   .banner-background-img {
     height: 100vw;
-  }
-
-  .banner-container h1 {
-    font-size: 1rem;
-  }
-
-  .banner-container h5 {
-    font-size: 0.7rem;
+    min-height: 300px;
   }
 
   .banner-container div>a {
     font-size: 0.8rem;
-    width: 200px;
-    left: calc(50% - 100px);
-    padding: 0.3rem 0.6rem;
-    top: 67%;
+    width: 240px;
+    left: calc(50% - 120px);
+    padding: 0.4rem 0.6rem;
+    top: 66%;
+
   }
 
   .banner-container div>a:visited {
@@ -342,7 +350,7 @@
     width: 80px;
     height: 80px;
     left: calc(50% - 40px);
-    top: 20%;
+    top: 18%;
   }
 
   .body-top-img {
@@ -362,7 +370,7 @@
   }
 
   .body-box p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     letter-spacing: 0.02rem;
   }
 
@@ -371,16 +379,53 @@
     margin: 1.5rem 0;
   }
 
-  .body-box-code-slogan {
-    transform: translate(0, 0);
-    font-size: 0.7rem;
+  .body-box-sponsor {
+    height: 55vw;
   }
 
   .body-box-sponsor p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
-  
+
   .body-box-sponsor h2 {
     font-size: 0.7rem;
+  }
+
+  .body-bottom-img {
+    height: auto;
+  }
+}
+
+/* 小手机 */
+@media screen and (max-width: 280px) {
+  .banner-container h1 {
+    font-size: 0.7rem;
+    top: 42%;
+    letter-spacing: 0;
+  }
+
+  .banner-container h5 {
+    top: 48%;
+    font-size: 0.7rem;
+  }
+
+  .theme-container {
+    min-width: 240px;
+  }
+
+
+  .banner-container div>a {
+    font-size: 0.8rem;
+    width: 200px;
+    left: calc(50% - 100px);
+    padding: 0.4rem 0.6rem;
+    top: 66%;
+  }
+
+  .banner-logo {
+    width: 60px;
+    height: 60px;
+    left: calc(50% - 30px);
+    top: 18%;
   }
 }

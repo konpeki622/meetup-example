@@ -49,7 +49,7 @@
           <p>敬请期待</p>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <p>敬请期待</p>
-          <h2>CONTACT US · 联系我们</h2>
+          <h2 style="margin-bottom: 0.5rem">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
               alt="vueshenzhen"
