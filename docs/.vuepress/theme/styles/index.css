@@ -325,7 +325,7 @@
   .body-container {
     width: 90%;
     transform: translateY(-1rem);
-    height: calc(38rem + 70vw)
+    height: calc(45rem + 70vw)
   }
 
   .banner-background-img {
@@ -370,13 +370,11 @@
   }
 
   .body-box p {
-    font-size: 0.7rem;
     letter-spacing: 0.02rem;
   }
 
   .body-box h2 {
-    font-size: 0.7rem;
-    margin: 1.5rem 0;
+    font-size: 0.9rem;
   }
 
   .body-box-sponsor {
@@ -384,12 +382,11 @@
   }
 
   .body-box-sponsor p {
-    font-size: 0.7rem;
     margin: 0.3rem 0;
   }
 
   .body-box-sponsor h2 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     margin: 0.3rem 0;
   }
 
