@@ -14,7 +14,7 @@
 #theme-banner .banner-background-img {
   object-fit: cover;
   width: 100%;
-  min-height: 450px;
+  min-height: 500px;
   height: 50vh;
 }
 
@@ -23,7 +23,7 @@
   bottom: 0;
   width: 100%;
   height: 85%;
-  min-height: 382.5px;
+  min-height: 425px;
   display: flex;
   justify-content: center;
 }
@@ -47,7 +47,7 @@
 
 #theme-banner .banner-container h1 {
   position: absolute;
-  top: 48%;
+  top: 45%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -58,7 +58,7 @@
 
 #theme-banner .banner-container h5 {
   position: absolute;
-  top: 55%;
+  top: 52%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -78,7 +78,7 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: 72%;
+  top: 65%;
   left: calc(50% - 180px);
   text-align: center;
   vertical-align: middle;
@@ -193,7 +193,7 @@
   width: 100%;
   text-align: center;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1rem;
   letter-spacing: 0.04rem;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -241,14 +241,14 @@
 }
 
 #theme-body .body-container .body-box-sponsor p {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.1rem;
   letter-spacing: 0.04rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
 #theme-body .body-container .body-box-sponsor h2 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.8);
   margin: 1rem 0;
@@ -267,9 +267,14 @@
     left: calc(50% - 50px);
   }
 
+  #theme-banner .banner-container h1 {
+    font-size: 1.4rem;
+  }
+
   #theme-banner .banner-container a {
     font-size: 1rem;
     width: 320px;
+    top: 68%;
     left: calc(50% - 160px);
   }
 
@@ -349,7 +354,7 @@
   }
 
   #theme-banner .banner-container h1 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     top: 42%;
   }
 
@@ -363,7 +368,7 @@
     width: 240px;
     left: calc(50% - 120px);
     padding: 0.4rem 0.6rem;
-    top: 66%;
+    top: 67%;
 
   }
 
@@ -463,7 +468,6 @@
     font-size: 0.9rem;
     top: 42%;
     letter-spacing: 0;
-    font-weight: 500;
   }
 
   #theme-banner .banner-container h5 {
@@ -479,10 +483,18 @@
   }
 
   #theme-body .body-container .body-box h2 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  #theme-body .body-container .body-box p {
+    font-size: 0.8rem;
   }
 
   #theme-body .body-container .body-box-sponsor h2 {
+    font-size: 0.8rem;
+  }
+
+  #theme-body .body-container .body-box-sponsor p {
     font-size: 0.8rem;
   }
 
