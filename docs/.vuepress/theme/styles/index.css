@@ -78,7 +78,7 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: 68%;
+  top: calc(60% + 2rem);
   left: calc(50% - 170px);
   text-align: center;
   vertical-align: middle;
@@ -350,7 +350,7 @@
     width: 80px;
     height: 80px;
     left: calc(50% - 40px);
-    top: 18%;
+    top: calc(30% - 30px);
   }
 
   #theme-banner .banner-container h1 {
@@ -359,7 +359,7 @@
   }
 
   #theme-banner .banner-container h5 {
-    top: 48%;
+    top: 46%;
     font-size: 0.8rem;
   }
 
@@ -368,7 +368,7 @@
     width: 240px;
     left: calc(50% - 120px);
     padding: 0.4rem 0.6rem;
-    top: 67%;
+    top: calc(55% + 1rem);
 
   }
 
@@ -461,17 +461,14 @@
     width: 60px;
     height: 60px;
     left: calc(50% - 30px);
-    top: 18%;
   }
 
   #theme-banner .banner-container h1 {
     font-size: 0.9rem;
-    top: 42%;
     letter-spacing: 0;
   }
 
   #theme-banner .banner-container h5 {
-    top: 48%;
     font-size: 0.8rem;
   }
 
@@ -479,7 +476,16 @@
     width: 200px;
     left: calc(50% - 100px);
     padding: 0.4rem 0.6rem;
-    top: 66%;
+    font-size: 0.8rem;
+    top: calc(60% + 10px);
+  }
+
+  #theme-banner .banner-container a:hover {
+    font-size: 0.8rem;
+  }
+
+  #theme-banner .banner-container a:visited {
+    font-size: 0.8rem;
   }
 
   #theme-body .body-container .body-box h2 {
