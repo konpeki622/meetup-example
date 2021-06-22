@@ -41,7 +41,7 @@
   width: 110px;
   height: 110px;
   position: absolute;
-  top: 23%;
+  top: calc(45% - 100px);
   left: calc(50% - 55px);
 }
 
@@ -63,23 +63,23 @@
   text-align: center;
   color: #333366;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   /* letter-spacing: 0.1rem; */
 }
 
 #theme-banner .banner-container a {
   color: #fff;
-  font-size: 1.1rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 500;
   letter-spacing: 0.06rem;
   text-decoration: none;
 
-  width: 360px;
+  width: 340px;
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: 65%;
-  left: calc(50% - 180px);
+  top: 68%;
+  left: calc(50% - 170px);
   text-align: center;
   vertical-align: middle;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -89,16 +89,16 @@
 }
 
 #theme-banner .banner-container a:visited {
-  font-size: 1.1rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 500;
   color: #fff;
   letter-spacing: 0.06rem;
   text-decoration: none;
 }
 
 #theme-banner .banner-container a:hover {
-  font-size: 1.1rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-weight: 500;
   color: #fff;
   letter-spacing: 0.06rem;
   text-decoration: none;
