@@ -16,21 +16,25 @@
         <img alt="vue.js" src="/assets/images/v-logo.png" class="banner-logo" />
         <h1>VUE SHENZHEN · 深圳</h1>
         <h5>meetup</h5>
-        <div>
-          <a
-            href="https://www.huodongxing.com/people/4924099457396"
-            target="_blank"
-            rel="”nofollow”"
-            >Register now · 立刻报名</a
-          >
-        </div>
+        <a
+          href="https://www.huodongxing.com/people/4924099457396"
+          target="_blank"
+          rel="”nofollow”"
+          >Register now · 立刻报名</a
+        >
       </div>
     </div>
     <div id="theme-body">
       <div class="body-divider-back"></div>
-      <div class="body-divider"></div>
+      <div class="body-divider-box">
+        <div class="body-divider"></div>
+      </div>
       <div class="body-container">
-        <img src="/assets/images/body-top.png" class="body-top-img" />
+        <img
+          alt="vueshenzhen-top-img"
+          src="/assets/images/body-top.png"
+          class="body-top-img"
+        />
         <div class="body-box">
           <h2>ABOUT US · 关于我们</h2>
           <p>{{ description }}</p>
@@ -38,6 +42,7 @@
           <p>
             <span
               ><img
+                alt="vueshenzhen-time-icon"
                 src="/assets/images/time-icon.png"
                 class="body-box-time-icon" /></span
             ><span>{{ time }}</span>
@@ -45,22 +50,16 @@
           <h2>LOCATION · 举办地点</h2>
           <p>{{ location }}</p>
           <h2>SCHEDULE · 活动日程</h2>
-          <!-- <topic-list :list="topicList" /> -->
           <p>敬请期待</p>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
-          <p>敬请期待</p>
+          <host-list :hosts="hostList"></host-list>
           <h2 style="margin-bottom: 0.5rem">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
-              alt="vueshenzhen"
+              alt="vueshenzhen-code"
               src="/assets/images/vuesz-code-mobile.gif"
               class="body-box-code-img"
             />
-            <!-- <img
-              alt="vueshenzhen"
-              src="/assets/images/vuesz-code-mobile.gif"
-              class="body-box-code-img--mobile"
-            /> -->
             <div class="body-box-code-slogan">{{ contact }}</div>
           </div>
         </div>
@@ -68,20 +67,25 @@
           <h2>BECOME A SPONSOR · 成为赞助者</h2>
           <p>虚位以待</p>
         </div>
-        <img src="/assets/images/body-bottom.png" class="body-bottom-img" />
+        <img
+          alt="vueshenzhen-bottom-img"
+          src="/assets/images/body-bottom.png"
+          class="body-bottom-img"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import HostList from "../components/HostList";
 // import TopicList from "../components/TopicList";
-// import portraitImg from "../../public/assets/images/portrait-example1.jpg";
 
 export default {
-  // components: {
-  //   TopicList,
-  // },
+  components: {
+    // TopicList,
+    HostList,
+  },
 
   data() {
     return {
@@ -90,50 +94,8 @@ export default {
       location: "敬请期待",
       time: "2021.7.17 9:00AM-18:00PM",
       contact: "扫码关注VUE SHENZHEN公众号",
-      // topicList: [
-      //   {
-      //     id: "1",
-      //     topicTitle: "Vite，下一代Web工具",
-      //     time: "9:00AM-10:00AM",
-      //     desc: "分享内容主要是现有Web开发的痛点以及Vite的解决方案。",
-      //     host: {
-      //       portraitUrl: portraitImg,
-      //       hostName: "李梦媛",
-      //       joinWay: "远程参与",
-      //       hostNameEn: "Mengyuan",
-      //       hostDesc: "前Google Creative Lab成员",
-      //       hostRole: "Vue.js开发者",
-      //     },
-      //   },
-      //   {
-      //     id: "2",
-      //     topicTitle: "Vite，下一代Web工具",
-      //     time: "10:00AM-0:00PM",
-      //     desc: "分享内容主要是现有Web开发的痛点以及Vite的解决方案。",
-      //     host: {
-      //       portraitUrl: portraitImg,
-      //       hostName: "李梦媛",
-      //       joinWay: "远程参与",
-      //       hostNameEn: "Mengyuan",
-      //       hostDesc: "前Google Creative Lab成员",
-      //       hostRole: "Vue.js开发者",
-      //     },
-      //   },
-      //   {
-      //     id: "3",
-      //     topicTitle: "Vite，下一代Web工具",
-      //     time: "2:00PM-3:00PM",
-      //     desc: "分享内容主要是现有Web开发的痛点以及Vite的解决方案。",
-      //     host: {
-      //       portraitUrl: portraitImg,
-      //       hostName: "李梦媛",
-      //       joinWay: "远程参与",
-      //       hostNameEn: "Mengyuan",
-      //       hostDesc: "前Google Creative Lab成员",
-      //       hostRole: "Vue.js开发者",
-      //     },
-      //   },
-      // ],
+      // topicList: [],
+      hostList: [{ hostName: "神秘嘉宾" }, { hostName: "神秘嘉宾" }],
     };
   },
 };

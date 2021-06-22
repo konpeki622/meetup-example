@@ -1,7 +1,5 @@
 <template>
   <section>
-    <!-- 单个主讲人时注释掉 -->
-    <topic-host :host="topic.host" />
     <div>
       <h1>{{ topic.topicTitle }}</h1>
     </div>
@@ -13,12 +11,8 @@
 </template>
 
 <script>
-import TopicHost from "./TopicHost";
 
 export default {
-  components: {
-    TopicHost,
-  },
 
   props: ["topic"],
 };
