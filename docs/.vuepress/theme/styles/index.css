@@ -51,14 +51,14 @@
   width: 100%;
   text-align: center;
   color: #333366;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 0.08rem;
 }
 
 #theme-banner .banner-container h5 {
   position: absolute;
-  top: 54%;
+  top: 55%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -78,7 +78,7 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: calc(50% - 180px);
   text-align: center;
   vertical-align: middle;
@@ -149,7 +149,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(93rem + 50vw);
+  height: calc(96rem + 50vw);
   overflow: hidden;
 }
 
@@ -193,7 +193,7 @@
   width: 100%;
   text-align: center;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 0.04rem;
   color: rgba(0, 0, 0, 0.6);
 }
@@ -201,8 +201,8 @@
 #theme-body .body-container .body-box h2 {
   width: 100%;
   text-align: center;
-  font-weight: 500;
-  font-size: 1.2rem;
+  font-weight: 600;
+  font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.8);
   margin: 4rem 0;
 }
@@ -242,14 +242,14 @@
 
 #theme-body .body-container .body-box-sponsor p {
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 0.04rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
 #theme-body .body-container .body-box-sponsor h2 {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.8);
   margin: 1rem 0;
 }
@@ -265,14 +265,6 @@
     position: absolute;
     top: 25%;
     left: calc(50% - 50px);
-  }
-
-  #theme-banner .banner-container h1 {
-    font-size: 1.3rem;
-  }
-
-  #theme-banner .banner-container h5 {
-    font-size: 1rem;
   }
 
   #theme-banner .banner-container a {
@@ -293,15 +285,15 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(75rem + 50vw)
+    height: calc(81rem + 50vw)
   }
 
   #theme-body .body-container .body-box p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   #theme-body .body-container .body-box h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 3rem 0;
   }
 
@@ -311,16 +303,16 @@
   }
 
   #theme-body .body-container .body-box .body-box-code .body-box-code-slogan {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   #theme-body .body-container .body-box-sponsor p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 0.4rem 0;
   }
 
   #theme-body .body-container .body-box-sponsor h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0.5rem 0;
   }
 
@@ -357,17 +349,17 @@
   }
 
   #theme-banner .banner-container h1 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     top: 42%;
   }
 
   #theme-banner .banner-container h5 {
     top: 48%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   #theme-banner .banner-container a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     width: 240px;
     left: calc(50% - 120px);
     padding: 0.4rem 0.6rem;
@@ -376,11 +368,11 @@
   }
 
   #theme-banner .banner-container a:visited {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   #theme-banner .banner-container a:hover {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   /* ---------- body ---------- */
@@ -393,7 +385,7 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-1rem);
-    height: calc(52rem + 100vw);
+    height: calc(54rem + 100vw);
   }
 
   /* background */
@@ -412,18 +404,19 @@
   }
 
   #theme-body .body-container .body-box .body-box-time-icon {
-    width: 0.8rem;
-    height: 0.8rem;
+    width: 0.9rem;
+    height: 0.9rem;
     margin-right: 0.2rem;
     transform: translateY(0.1rem);
   }
 
   #theme-body .body-container .body-box p {
+    font-size: 0.9rem;
     letter-spacing: 0.02rem;
   }
 
   #theme-body .body-container .body-box h2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 2.5rem 0;
   }
 
@@ -437,11 +430,12 @@
   }
 
   #theme-body .body-container .body-box-sponsor p {
+    font-size: 0.9rem;
     margin: 0.3rem 0;
   }
 
   #theme-body .body-container .body-box-sponsor h2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0.3rem 0;
   }
 }
@@ -466,14 +460,15 @@
   }
 
   #theme-banner .banner-container h1 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     top: 42%;
     letter-spacing: 0;
+    font-weight: 500;
   }
 
   #theme-banner .banner-container h5 {
     top: 48%;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   #theme-banner .banner-container a {
@@ -484,7 +479,7 @@
   }
 
   #theme-body .body-container .body-box h2 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   #theme-body .body-container .body-box-sponsor h2 {
