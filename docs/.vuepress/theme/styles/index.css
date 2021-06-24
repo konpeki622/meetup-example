@@ -359,7 +359,7 @@
   }
 
   #theme-banner .banner-container h5 {
-    top: 46%;
+    top: 48%;
     font-size: 0.8rem;
   }
 
@@ -368,7 +368,7 @@
     width: 240px;
     left: calc(50% - 120px);
     padding: 0.4rem 0.6rem;
-    top: calc(55% + 1rem);
+    top: calc(55% + 2rem);
 
   }
 
