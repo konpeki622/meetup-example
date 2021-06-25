@@ -91,7 +91,7 @@
 /* ---------- mobile-middle ---------- */
 @media screen and (max-width: 620px) {
     .host-container {
-        margin: 4rem 0;
+        margin: 3rem 0;
     }
 
     .host-container .host-box .host-detail {
@@ -101,12 +101,12 @@
 
     .host-container .host-box {
         min-width: 70px;
-        padding: 1rem 2rem;
+        padding: 1rem 1.2rem;
     }
 
     .host-container .host-box .host-portrait {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
     }
 }
 

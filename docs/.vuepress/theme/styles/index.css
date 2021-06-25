@@ -290,7 +290,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(92rem + 50vw)
+    height: calc(88rem + 50vw)
   }
 
   #theme-body .body-container .body-box p {
@@ -390,7 +390,7 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-1rem);
-    height: calc(60rem + 100vw);
+    height: calc(56rem + 100vw);
   }
 
   /* background */
@@ -490,7 +490,7 @@
 
 
   #theme-body .body-container {
-    height: calc(54rem + 100vw);
+    height: calc(52rem + 100vw);
     min-height: 72rem;
   }
 
