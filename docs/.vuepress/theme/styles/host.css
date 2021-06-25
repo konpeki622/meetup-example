@@ -4,11 +4,11 @@
     justify-content: center;
     width: 100%;
     gap: 10%;
-    margin-bottom: 5rem;
+    margin: 6rem 0;
 }
 
 .host-container .host-box {
-    padding: 2.5rem;
+    padding: 2.5rem 3rem;
     min-width: 150px;
     max-width: 330px;
     display: flex;
@@ -23,11 +23,10 @@
 }
 
 .host-container .host-box .host-portrait {
-    height: 120px;
-    width: 120px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
-    border: 3px solid #66d09b;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(255, 255, 255, 0.2);
     overflow: hidden;
 }
 
@@ -69,12 +68,13 @@
 
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1024px) {
-    .host-container {
-        margin-bottom: 4rem;
-    }
-
     .host-container .host-box {
         min-width: 100px;
+        padding: 2rem 2.5rem;
+    }
+
+    .host-container .host-box .host-detail {
+        margin-top: 1.5rem;
     }
 
     .host-container .host-box .host-detail .host-text-name {
@@ -82,27 +82,49 @@
     }
 
     .host-container .host-box .host-portrait {
-        height: 100px;
-        width: 100px;
-        border: 2px solid #66d09b;
+        height: 150px;
+        width: 150px;
     }
 
 }
 
 /* ---------- mobile-middle ---------- */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .host-container {
-        margin-bottom: 3rem;
+        margin: 4rem 0;
     }
 
     .host-container .host-box .host-detail {
         margin-top: 1rem;
-        gap: 3px;
+        gap: 5px;
     }
 
     .host-container .host-box {
-        min-width: 0;
-        padding: 1.2rem;
+        min-width: 70px;
+        padding: 1rem 2rem;
+    }
+
+    .host-container .host-box .host-portrait {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* ---------- mobile-small ---------- */
+@media screen and (max-width: 315px) {
+
+    .host-container {
+        margin: 2rem 0;
+    }
+
+    .host-container .host-box {
+        min-width: 50px;
+        padding: 1rem;
+    }
+
+    .host-container .host-box .host-portrait {
+        height: 80px;
+        width: 80px;
     }
 
     .host-container .host-box .host-detail .host-text-name {
@@ -112,13 +134,4 @@
     .host-container .host-box .host-detail .host-text-role {
         font-size: 0.8rem;
     }
-
-    .host-container .host-box .host-portrait {
-        height: 60px;
-        width: 60px;
-        border: 1.5px solid #66d09b;
-    }
 }
-
-/* ---------- mobile-small ---------- */
-@media screen and (max-width: 280px) {}

@@ -149,7 +149,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(96rem + 50vw);
+  height: calc(105rem + 50vw);
   overflow: hidden;
 }
 
@@ -290,7 +290,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(81rem + 50vw)
+    height: calc(92rem + 50vw)
   }
 
   #theme-body .body-container .body-box p {
@@ -324,7 +324,7 @@
 }
 
 /* ---------- mobile-middle ---------- */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
   .theme-container {
     min-width: 0;
   }
@@ -390,7 +390,7 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-1rem);
-    height: calc(54rem + 100vw);
+    height: calc(60rem + 100vw);
   }
 
   /* background */
@@ -446,9 +446,9 @@
 }
 
 /* ---------- mobile-small ---------- */
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 315px) {
   .theme-container {
-    min-width: 240px;
+    min-width: 260px;
   }
 
   /* ---------- banner ---------- */
@@ -488,6 +488,12 @@
     font-size: 0.8rem;
   }
 
+
+  #theme-body .body-container {
+    height: calc(54rem + 100vw);
+    min-height: 72rem;
+  }
+
   #theme-body .body-container .body-box h2 {
     font-size: 0.8rem;
   }
@@ -496,12 +502,20 @@
     font-size: 0.8rem;
   }
 
+  #theme-body .body-container .body-box .body-box-code .body-box-code-slogan {
+    transform: translateY(0);
+  }
+
   #theme-body .body-container .body-box-sponsor h2 {
     font-size: 0.8rem;
   }
 
   #theme-body .body-container .body-box-sponsor p {
     font-size: 0.8rem;
+  }
+
+  #theme-body .body-container .body-box-sponsor {
+    min-height: 9rem;
   }
 
 }
