@@ -78,7 +78,7 @@
     }
 
     .host-container .host-box .host-detail .host-text-name {
-        font-size: 1rem;
+        font-size:1rem;
     }
 
     .host-container .host-box .host-portrait {
@@ -105,8 +105,16 @@
     }
 
     .host-container .host-box .host-portrait {
-        height: 80px;
-        width: 80px;
+        height: 72px;
+        width: 72px;
+    }
+
+    .host-container .host-box .host-detail .host-text-name {
+        font-size: 0.9rem;
+    }
+
+    .host-container .host-box .host-detail .host-text-role {
+        font-size: 0.8rem;
     }
 }
 
