@@ -2,14 +2,15 @@
   <section class="host-container">
     <div class="host-box" v-for="host in hosts" :key="host.id">
       <div class="host-portrait">
-      <img
-        class="portrait-img"
-        :src="
-          host.portraitUrl
-            ? host.portraitUrl
-            : '/assets/images/vuesz-portrait.png'
-        "
-      />
+        <img
+          class="portrait-img"
+          alt="vueshenzhen-host-portrait"
+          :src="
+            host.portraitUrl
+              ? host.portraitUrl
+              : '/assets/images/vuesz-portrait.png'
+          "
+        />
       </div>
       <div class="host-detail">
         <div class="host-text-name">{{ host.hostName }}</div>

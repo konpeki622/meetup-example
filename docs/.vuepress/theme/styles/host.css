@@ -26,33 +26,38 @@
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 3px solid #66d09b;
+    background: rgba(0, 0, 0, 0.7);
     overflow: hidden;
 }
 
 .host-container .host-box .host-portrait .portrait-img {
-    height: 100%;
-    width: 100%;
-    transform: translateY(3px);
+    height: 90%;
+    width: 90%;
+    transform: translate(4%, 15%);
     object-fit: cover;
 }
 
 .host-container .host-box .host-detail {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .host-container .host-box .host-detail .host-text-name {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 600;
     letter-spacing: 0.04rem;
     color: rgba(0, 0, 0, 0.6);
 }
 
 .host-container .host-box .host-detail .host-text-role {
-    font-size: 0.7rem;
-    margin-top: 6px;
-    letter-spacing: 0.08rem;
-    font-weight: 100;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .host-container .host-box .host-detail .host-text-desc {
@@ -73,12 +78,13 @@
     }
 
     .host-container .host-box .host-detail .host-text-name {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .host-container .host-box .host-portrait {
         height: 100px;
         width: 100px;
+        border: 2px solid #66d09b;
     }
 
 }
@@ -91,6 +97,7 @@
 
     .host-container .host-box .host-detail {
         margin-top: 1rem;
+        gap: 3px;
     }
 
     .host-container .host-box {
@@ -102,9 +109,14 @@
         font-size: 0.8rem;
     }
 
+    .host-container .host-box .host-detail .host-text-role {
+        font-size: 0.8rem;
+    }
+
     .host-container .host-box .host-portrait {
         height: 60px;
         width: 60px;
+        border: 1.5px solid #66d09b;
     }
 }
 

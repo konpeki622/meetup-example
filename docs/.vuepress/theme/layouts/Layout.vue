@@ -95,7 +95,10 @@ export default {
       time: "2021.7.17 9:00AM-18:00PM",
       contact: "扫码关注VUE SHENZHEN公众号",
       // topicList: [],
-      hostList: [{ hostName: "神秘嘉宾" }, { hostName: "神秘嘉宾" }],
+      hostList: [
+        { hostName: "神秘嘉宾", hostRole: "敬请期待" },
+        { hostName: "神秘嘉宾", hostRole: "敬请期待" },
+      ],
     };
   },
 };
