@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   box-sizing: border-box;
+  min-width: 1024px;
 }
 
 /* ---------- banner ---------- */
@@ -257,6 +258,10 @@
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1024px) {
 
+  .theme-container {
+    min-width: 620px;
+  }
+
   /* ---------- banner ---------- */
   /* details */
 
@@ -322,7 +327,7 @@
 /* ---------- mobile-middle ---------- */
 @media screen and (max-width: 620px) {
   .theme-container {
-    min-width: 0;
+    min-width: 315px;
   }
 
   /* ---------- banner ---------- */
@@ -346,11 +351,11 @@
     width: 80px;
     height: 80px;
     left: calc(50% - 40px);
-    top: calc(30% - 30px);
+    top: calc(30% - 40px);
   }
 
   #theme-banner .banner-container h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 0.06rem;
     top: 42%;
   }
