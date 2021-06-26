@@ -291,7 +291,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(98rem + 50vw)
+    height: calc(102rem + 50vw)
   }
 
   #theme-body .body-container .body-box p {
@@ -300,7 +300,6 @@
 
   #theme-body .body-container .body-box h2 {
     font-size: 1.2rem;
-    /* margin: 3rem 0; */
   }
 
   #theme-body .body-container .body-box .body-box-code .body-box-code-img {
@@ -392,7 +391,7 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-1rem);
-    height: calc(72rem + 100vw);
+    height: calc(57rem + 100vw);
   }
 
   /* background */
@@ -424,6 +423,7 @@
 
   #theme-body .body-container .body-box h2 {
     font-size: 1rem;
+    margin: 2.5rem 0 ;
   }
 
   #theme-body .body-container .body-box .body-box-code .body-box-code-img {
@@ -493,13 +493,13 @@
 
 
   #theme-body .body-container {
-    height: calc(52rem + 100vw);
-    min-height: 72rem;
+    height: calc(50rem + 100vw);
+    min-height: 67rem;
   }
 
   #theme-body .body-container .body-box h2 {
     font-size: 0.8rem;
-    margin: 2.5rem 0;
+    margin: 2rem 0;
   }
 
   #theme-body .body-container .body-box p {
