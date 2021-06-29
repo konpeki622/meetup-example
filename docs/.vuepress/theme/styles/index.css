@@ -79,12 +79,12 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: calc(60% + 2rem);
+  top: calc(60% + 32px);
   left: calc(50% - 170px);
   text-align: center;
   vertical-align: middle;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 2rem;
+  border-radius: 32px;
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
 }
@@ -115,14 +115,14 @@
 
 /* divider */
 #theme-body .body-divider-back {
-  transform: translateY(-1rem);
+  transform: translateY(-16px);
   background-color: #41b883;
   height: 18px;
   width: 100%;
 }
 
 #theme-body .body-divider-box {
-  transform: translateY(-1rem);
+  transform: translateY(-16px);
   top: 0;
   position: absolute;
   z-index: 99;
@@ -143,14 +143,14 @@
 
 /* content */
 #theme-body .body-container {
-  transform: translateY(-1rem);
+  transform: translateY(-16px);
   width: 70%;
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(105rem + 50vw);
+  height: calc(1840px + 50vw);
   overflow: hidden;
 }
 
@@ -160,8 +160,8 @@
   z-index: 1;
   width: 110%;
   height: auto;
-  top: -7rem;
-  right: -1rem;
+  top: -112px;
+  right: -16px;
 }
 
 #theme-body .body-container .body-bottom-img {
@@ -176,7 +176,7 @@
 /* details */
 #theme-body .body-container .body-box {
   width: 100%;
-  padding: 2rem 5rem;
+  padding: 32px 80px;
   box-sizing: border-box;
   position: absolute;
   z-index: 2;
@@ -205,7 +205,7 @@
   font-weight: 600;
   font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.8);
-  margin: 4rem 0;
+  margin: 64px 0;
 }
 
 #theme-body .body-container .body-box .body-box-code {
@@ -252,7 +252,7 @@
   font-weight: 600;
   font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.8);
-  margin: 1rem 0;
+  margin: 16px 0;
 }
 
 /* ---------- mobile-large ---------- */
@@ -291,7 +291,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(102rem + 50vw)
+    height: calc(2048px + 50vw)
   }
 
   #theme-body .body-container .body-box p {
@@ -313,12 +313,12 @@
 
   #theme-body .body-container .body-box-sponsor p {
     font-size: 1rem;
-    margin: 0.4rem 0;
+    margin: 6.4px 0;
   }
 
   #theme-body .body-container .body-box-sponsor h2 {
     font-size: 1.2rem;
-    margin: 0.5rem 0;
+    margin: 8px 0;
   }
 
 }
@@ -368,8 +368,8 @@
     font-size: 0.9rem;
     width: 240px;
     left: calc(50% - 120px);
-    padding: 0.4rem 0.6rem;
-    top: calc(56% + 2rem);
+    padding: 6.4px 9.6px;
+    top: calc(56% + 32px);
 
   }
 
@@ -390,13 +390,13 @@
   /* content */
   #theme-body .body-container {
     width: 90%;
-    transform: translateY(-1rem);
-    height: calc(57rem + 100vw);
+    transform: translateY(-16px);
+    height: calc(1440px + 100vw);
   }
 
   /* background */
   #theme-body .body-container .body-top-img {
-    top: -2rem;
+    top: -32px;
   }
 
   #theme-body .body-container .body-bottom-img {
@@ -406,13 +406,13 @@
   /* details */
   #theme-body .body-container .body-box {
     width: 100%;
-    padding: 1rem;
+    padding: 16px;
   }
 
   #theme-body .body-container .body-box .body-box-time-icon {
     width: 0.9rem;
     height: 0.9rem;
-    margin-right: 0.2rem;
+    margin-right: 3.2px;
     transform: translateY(0.1rem);
   }
 
@@ -423,7 +423,7 @@
 
   #theme-body .body-container .body-box h2 {
     font-size: 1rem;
-    margin: 2.5rem 0 ;
+    margin: 40px 0;
   }
 
   #theme-body .body-container .body-box .body-box-code .body-box-code-img {
@@ -437,12 +437,12 @@
 
   #theme-body .body-container .body-box-sponsor p {
     font-size: 0.9rem;
-    margin: 0.3rem 0;
+    margin: 4.8px 0;
   }
 
   #theme-body .body-container .body-box-sponsor h2 {
     font-size: 1rem;
-    margin: 0.3rem 0;
+    margin: 4.8px 0;
   }
 }
 
@@ -478,7 +478,7 @@
   #theme-banner .banner-container a {
     width: 200px;
     left: calc(50% - 100px);
-    padding: 0.4rem 0.6rem;
+    padding: 6.4px 9.6px;
     font-size: 0.8rem;
     top: calc(60% + 10px);
   }
@@ -493,13 +493,13 @@
 
 
   #theme-body .body-container {
-    height: calc(50rem + 100vw);
-    min-height: 67rem;
+    height: calc(1200px + 100vw);
+    min-height: 1472px;
   }
 
   #theme-body .body-container .body-box h2 {
     font-size: 0.8rem;
-    margin: 2rem 0;
+    margin: 32px 0;
   }
 
   #theme-body .body-container .body-box p {

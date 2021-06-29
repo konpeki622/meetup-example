@@ -91,13 +91,13 @@ export default {
     return {
       description:
         "Vue Shenzhen由一群Vue.js开发爱好者自发成立的位于深圳的本地组织。旨在将热情的Vue.js开发人员联系起来共同学习和成长。",
-      location: "敬请期待",
-      time: "2021.7.17 9:00AM-18:00PM",
+      location: "深圳市龙岗区坂田天安云谷（暂定）",
+      time: "2021年8月 周六",
       contact: "扫码关注VUE SHENZHEN公众号",
       // topicList: [],
       hostList: [
-        { hostName: "神秘嘉宾", hostRole: "敬请期待" },
-        { hostName: "神秘嘉宾", hostRole: "敬请期待" },
+        { hostName: "霍春阳·HcySunYang", hostDesc: " Vue.js 核心团队成员，自由职业者，曾就职于美团点评、字节跳动等公司，目前主要负责 Vue3 的维护。", portraitUrl: "/assets/images/hcysunyang.jpeg" },
+        { hostName: "神秘嘉宾", hostDesc: "敬请期待" },
       ],
     };
   },

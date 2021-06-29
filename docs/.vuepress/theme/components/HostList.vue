@@ -3,8 +3,8 @@
     <div class="host-box" v-for="host in hosts" :key="host.id">
       <div class="host-portrait">
         <img
-          class="portrait-img"
-          alt="vueshenzhen-host-portrait"
+          :class="`portrait-img${host.portraitUrl? '' : '--default'}`"
+          :alt="host.hostName"
           :src="
             host.portraitUrl
               ? host.portraitUrl
@@ -14,9 +14,6 @@
       </div>
       <div class="host-detail">
         <div class="host-text-name">{{ host.hostName }}</div>
-        <div class="host-text-role" v-if="host.hostRole">
-          {{ host.hostRole }}
-        </div>
         <div class="host-text-desc" v-if="host.hostDesc">
           {{ host.hostDesc }}
         </div>

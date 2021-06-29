@@ -4,13 +4,14 @@
     justify-content: center;
     width: 100%;
     gap: 10%;
-    margin: 6rem 0;
+    margin: 96px 0;
 }
 
 .host-container .host-box {
-    padding: 2.5rem 3rem;
-    min-width: 150px;
-    max-width: 330px;
+    padding: 40px 48px;
+    width: 240px;
+    height: calc(560px - 15vw);
+    min-height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,24 +27,35 @@
     height: 180px;
     width: 180px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(255, 255, 255, 0.2);
     overflow: hidden;
 }
 
 .host-container .host-box .host-portrait .portrait-img {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.host-container .host-box .host-portrait .portrait-img--default {
+    transform: translate(0, 10%);
     height: 90%;
     width: 90%;
-    transform: translate(4%, 15%);
     object-fit: cover;
 }
 
 .host-container .host-box .host-detail {
-    margin-top: 2rem;
+    margin-top: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
+
 
 .host-container .host-box .host-detail .host-text-name {
     font-size: 1.2rem;
@@ -52,38 +64,40 @@
     color: rgba(0, 0, 0, 0.6);
 }
 
-.host-container .host-box .host-detail .host-text-role {
+.host-container .host-box .host-detail .host-text-desc {
     font-size: 0.9rem;
     font-weight: 400;
     letter-spacing: 0.04rem;
     color: rgba(0, 0, 0, 0.4);
 }
 
-.host-container .host-box .host-detail .host-text-desc {
-    font-size: 0.5rem;
-    margin-top: 6px;
-    letter-spacing: 0.08rem;
-    font-weight: 100;
-}
-
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1024px) {
+
+    .host-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+
     .host-container .host-box {
-        min-width: 100px;
-        padding: 2rem 2.5rem;
+        min-width: 192px;
+        height: 272px;
+        min-height: 0;
+        padding: 32px 40px;
+        justify-content: center;
     }
 
     .host-container .host-box .host-detail {
-        margin-top: 1.5rem;
+        margin-top: 24px;
     }
 
     .host-container .host-box .host-detail .host-text-name {
-        font-size:1rem;
+        font-size: 1rem;
     }
 
     .host-container .host-box .host-portrait {
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
     }
 
 }
@@ -91,29 +105,30 @@
 /* ---------- mobile-middle ---------- */
 @media screen and (max-width: 620px) {
     .host-container {
-        margin: 3rem 0;
+        margin: 48px 0;
     }
 
     .host-container .host-box .host-detail {
-        margin-top: 1rem;
+        margin-top: 24px;
         gap: 5px;
     }
 
     .host-container .host-box {
-        min-width: 70px;
-        padding: 1rem 1.2rem;
+        min-width: 155px;
+        padding: 16px 19.2px;
+        height: 240px;
     }
 
     .host-container .host-box .host-portrait {
-        height: 72px;
-        width: 72px;
+        height: 92px;
+        width: 92px;
     }
 
     .host-container .host-box .host-detail .host-text-name {
         font-size: 0.9rem;
     }
 
-    .host-container .host-box .host-detail .host-text-role {
+    .host-container .host-box .host-detail .host-text-desc {
         font-size: 0.8rem;
     }
 }
@@ -122,24 +137,24 @@
 @media screen and (max-width: 315px) {
 
     .host-container {
-        margin: 2rem 0;
-    }
-
-    .host-container .host-box {
-        min-width: 50px;
-        padding: 1rem;
+        margin: 32px 0;
     }
 
     .host-container .host-box .host-portrait {
-        height: 80px;
-        width: 80px;
+        height: 84px;
+        width: 84px;
+    }
+
+    .host-container .host-box {
+        width: 120px;
+        padding: 16px;
     }
 
     .host-container .host-box .host-detail .host-text-name {
         font-size: 0.8rem;
     }
 
-    .host-container .host-box .host-detail .host-text-role {
+    .host-container .host-box .host-detail .host-text-desc {
         font-size: 0.8rem;
     }
 }
