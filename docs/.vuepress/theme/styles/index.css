@@ -391,7 +391,7 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-16px);
-    height: calc(1300px + 100vw);
+    height: calc(1350px + 100vw);
   }
 
   /* background */
@@ -494,7 +494,7 @@
 
   #theme-body .body-container {
     height: calc(1200px + 100vw);
-    min-height: 1472px;
+    min-height: 1500px;
   }
 
   #theme-body .body-container .body-box h2 {
