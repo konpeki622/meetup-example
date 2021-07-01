@@ -9,7 +9,8 @@
 
 .host-container .host-box {
     padding: 40px 48px;
-    width: 240px;
+    width: 220px;
+    min-width: 200px;
     height: calc(400px - 5vw);
     min-height: 320px;
     display: flex;
@@ -108,13 +109,14 @@
     }
 
     .host-container .host-box .host-detail {
-        margin-top: 24px;
+        margin-top: 16px;
         gap: 10px;
     }
 
     .host-container .host-box {
         padding: 16px 19.2px;
         height: 240px;
+        width: 160px;
     }
 
     .host-container .host-box .host-portrait {
@@ -145,7 +147,8 @@
     }
 
     .host-container .host-box {
-        width: 150px;
+        width: 140px;
+        height: 220px;
         padding: 16px;
     }
 
