@@ -1,5 +1,5 @@
 # meetup-example
-[Vue Shenzhen](https://vueshenzhen.com)'
+[Vue Shenzhen](https://vueshenzhen.com)
 
 ## Build Setup
 
