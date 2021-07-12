@@ -42,13 +42,13 @@
   width: 110px;
   height: 110px;
   position: absolute;
-  top: calc(40% - 90px);
+  top: calc(42% - 90px);
   left: calc(50% - 55px);
 }
 
 #theme-banner .banner-container h1 {
   position: absolute;
-  top: 43%;
+  top: 45%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -59,7 +59,7 @@
 
 #theme-banner .banner-container h5 {
   position: absolute;
-  top: 50%;
+  top: 52%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -79,7 +79,7 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: calc(55% + 40px);
+  top: calc(58% + 40px);
   left: calc(50% - 170px);
   text-align: center;
   vertical-align: middle;
