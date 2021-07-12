@@ -9,7 +9,7 @@
       <div class="banner-container">
         <img
           id="banner"
-          alt="深圳"
+          alt="vueshenzhen"
           src="/assets/images/banner-main.png"
           class="banner-img"
         />
@@ -31,7 +31,7 @@
       </div>
       <div class="body-container">
         <img
-          alt="vueshenzhen-top-img"
+          alt="top-img"
           src="/assets/images/body-top.png"
           class="body-top-img"
         />
@@ -42,7 +42,6 @@
           <p>
             <span
               ><img
-                alt="vueshenzhen-time-icon"
                 src="/assets/images/time-icon.png"
                 class="body-box-time-icon" /></span
             ><span>{{ time }}</span>
@@ -68,7 +67,7 @@
           <p>虚位以待</p>
         </div>
         <img
-          alt="vueshenzhen-bottom-img"
+          alt="bottom-img"
           src="/assets/images/body-bottom.png"
           class="body-bottom-img"
         />
@@ -92,15 +91,15 @@ export default {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
       location: "深圳市龙岗区坂田天安云谷（暂定）",
-      time: "2021年8月 周六",
+      time: "2021年8月21日 周六",
       contact: "扫码关注 VUE SHENZHEN 公众号",
       // topicList: [],
       hostList: [
         {
-          hostName: "霍春阳·HcySunYang",
+          hostName: "林成璋 (Amour1688)",
           hostDesc:
-            " Vue.js 核心团队成员，自由职业者，曾就职于美团点评、字节跳动等公司，目前主要负责 Vue3 的维护。",
-          portraitUrl: "/assets/images/hcysunyang.jpeg",
+            " Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师",
+          portraitUrl: "/assets/images/amour1688.jpeg",
         },
         { hostName: "神秘嘉宾", hostDesc: "敬请期待" },
       ],
