@@ -104,7 +104,7 @@ export default {
           host: {
             hostName: "林成璋",
             hostDesc:
-              " Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师",
+              "Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师",
             portraitUrl: "/assets/images/amour1688.jpeg",
           },
           title: "Vue 3 + TypeScript 深度实践",
@@ -115,7 +115,7 @@ export default {
         {
           hostName: "林成璋 (Amour1688)",
           hostDesc:
-            " Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师。",
+            "Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师。",
           portraitUrl: "/assets/images/amour1688.jpeg",
         },
         { hostName: "神秘嘉宾", hostDesc: "敬请期待" },

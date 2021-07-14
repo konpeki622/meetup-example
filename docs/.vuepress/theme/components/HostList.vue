@@ -8,7 +8,7 @@
           :src="
             host.portraitUrl
               ? host.portraitUrl
-              : '/assets/images/vuesz-portrait.png'
+              : '/assets/images/default-portrait.png'
           "
         />
       </div>

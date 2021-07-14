@@ -239,6 +239,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 16px;
   height: 45vw;
   width: 100%;
 }
@@ -313,6 +314,10 @@
 
   #theme-body .body-container .body-box .body-box-code .body-box-code-slogan {
     font-size: 0.8rem;
+  }
+
+  #theme-body .body-container .body-box-sponsor {
+    gap: 0;
   }
 
   #theme-body .body-container .body-box-sponsor p {

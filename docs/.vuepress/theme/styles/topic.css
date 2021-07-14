@@ -1,6 +1,4 @@
-.topic-container {
-    margin-bottom: 112px;
-}
+.topic-container {}
 
 .topic-info-box {
     display: flex;
@@ -13,7 +11,8 @@
 .topic-info-box .topic-host-portrait {
     border-radius: 50%;
     width: 120px;
-    height: 120px
+    height: 120px;
+    object-fit: cover;
 }
 
 .topic-info-box .topic-process {
@@ -52,7 +51,7 @@
     display: flex;
     flex-direction: column;
     height: 240px;
-    width: 65%;
+    width: 32vw;
 }
 
 .topic-info-box .topic-detail-box .topic-title-flex {
@@ -97,6 +96,10 @@
 
     .topic-info-box .topic-process {
         margin: 0 40px;
+    }
+
+    .topic-info-box .topic-detail-box {
+        width: 65%;
     }
 
     .topic-info-box .topic-detail-box .topic-title-flex {
