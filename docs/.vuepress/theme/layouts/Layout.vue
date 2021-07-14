@@ -48,8 +48,10 @@
           </p>
           <h2>LOCATION · 举办地点</h2>
           <p>{{ location }}</p>
-          <h2>SCHEDULE · 活动日程</h2>
-          <p>敬请期待</p>
+          <h2 style="margin-bottom: 16px">SCHEDULE · 活动日程</h2>
+          <p>
+            <topic-list :topics="topicList"></topic-list>
+          </p>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
           <h2 style="margin-bottom: 0.5rem">CONTACT US · 联系我们</h2>
@@ -63,8 +65,10 @@
           </div>
         </div>
         <div class="body-box-sponsor">
-          <h2>BECOME A SPONSOR · 成为赞助者</h2>
-          <p>虚位以待</p>
+          <h2>SPONSOR · 赞助者</h2>
+          <p>
+            <sponser-list :sponsers="sponserList"></sponser-list>
+          </p>
         </div>
         <img
           alt="bottom-img"
@@ -77,13 +81,15 @@
 </template>
 
 <script>
-import HostList from "../components/HostList";
-// import TopicList from "../components/TopicList";
+import HostList from "../components/HostList.vue";
+import SponserList from '../components/SponserList.vue';
+import TopicList from "../components/TopicList.vue";
 
 export default {
   components: {
-    // TopicList,
+    TopicList,
     HostList,
+    SponserList,
   },
 
   data() {
@@ -93,16 +99,33 @@ export default {
       location: "深圳市龙岗区坂田天安云谷（暂定）",
       time: "2021年8月21日 周六",
       contact: "扫码关注 VUE SHENZHEN 公众号",
-      // topicList: [],
+      topicList: [
+        {
+          host: {
+            hostName: "林成璋",
+            hostDesc:
+              " Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师",
+            portraitUrl: "/assets/images/amour1688.jpeg",
+          },
+          title: "Vue 3 + TypeScript 深度实践",
+          description: "以 Vue3 的静态类型系统实现为切入点，帮助初学者由浅入深学习 TypeScript"
+        },
+      ],
       hostList: [
         {
           hostName: "林成璋 (Amour1688)",
           hostDesc:
-            " Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师",
+            " Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师。",
           portraitUrl: "/assets/images/amour1688.jpeg",
         },
         { hostName: "神秘嘉宾", hostDesc: "敬请期待" },
       ],
+      sponserList: [
+        {
+          name: "掘金",
+          logo: "/assets/images/juejin-logo.png"
+        }
+      ]
     };
   },
 };

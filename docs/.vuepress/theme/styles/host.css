@@ -4,15 +4,14 @@
     justify-content: center;
     width: 100%;
     gap: 10%;
-    margin: 120px 0;
+    margin: 144px 0;
 }
 
 .host-container .host-box {
-    padding: 40px 48px;
+    padding: 30px 32px;
     width: 220px;
     min-width: 200px;
-    height: calc(380px - 5vw);
-    min-height: 300px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,36 +67,19 @@
 .host-container .host-box .host-detail .host-text-desc {
     font-size: 0.9rem;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1024px) {
 
     .host-container {
+        margin: 0;
+    }
+
+    .host-container {
         flex-direction: column;
         gap: 48px;
-    }
-
-    .host-container .host-box {
-        width: 200px;
-        height: 272px;
-        min-height: 0;
-        padding: 32px 40px;
-        justify-content: center;
-    }
-
-    .host-container .host-box .host-detail {
-        margin-top: 24px;
-    }
-
-    .host-container .host-box .host-detail .host-text-name {
-        font-size: 1rem;
-    }
-
-    .host-container .host-box .host-portrait {
-        height: 120px;
-        width: 120px;
     }
 
 }
@@ -114,46 +96,19 @@
     }
 
     .host-container .host-box {
-        padding: 16px 19.2px;
-        height: 240px;
-        width: 160px;
+        padding: 16px 20px;
+        height: 220px;
+        width: 130px;
     }
 
     .host-container .host-box .host-portrait {
-        height: 92px;
-        width: 92px;
+        height: 120px;
+        width: 120px;
     }
 
     .host-container .host-box .host-detail .host-text-name {
         font-size: 0.9rem;
         letter-spacing: 0.02rem;
-    }
-
-    .host-container .host-box .host-detail .host-text-desc {
-        font-size: 0.8rem;
-    }
-}
-
-/* ---------- mobile-small ---------- */
-@media screen and (max-width: 315px) {
-
-    .host-container {
-        margin: 40px 0;
-    }
-
-    .host-container .host-box .host-portrait {
-        height: 84px;
-        width: 84px;
-    }
-
-    .host-container .host-box {
-        width: 140px;
-        height: 220px;
-        padding: 16px;
-    }
-
-    .host-container .host-box .host-detail .host-text-name {
-        font-size: 0.8rem;
     }
 
     .host-container .host-box .host-detail .host-text-desc {

@@ -4,6 +4,7 @@
   width: 100%;
   box-sizing: border-box;
   min-width: 1024px;
+  font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
 }
 
 /* ---------- banner ---------- */
@@ -39,11 +40,11 @@
 
 /* details */
 #theme-banner .banner-container .banner-logo {
-  width: 110px;
-  height: 110px;
+  width: 130px;
+  height: 130px;
   position: absolute;
-  top: calc(42% - 90px);
-  left: calc(50% - 55px);
+  top: calc(40% - 90px);
+  left: calc(50% - 65px);
 }
 
 #theme-banner .banner-container h1 {
@@ -52,14 +53,14 @@
   width: 100%;
   text-align: center;
   color: #333366;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 600;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.08rem;
 }
 
 #theme-banner .banner-container h5 {
   position: absolute;
-  top: 52%;
+  top: 53.5%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -72,15 +73,15 @@
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.03rem;
   text-decoration: none;
 
-  width: 340px;
+  width: 300px;
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
   top: calc(58% + 40px);
-  left: calc(50% - 170px);
+  left: calc(50% - 150px);
   text-align: center;
   vertical-align: middle;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -93,7 +94,7 @@
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.03rem;
   text-decoration: none;
 }
 
@@ -101,7 +102,7 @@
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.03rem;
   text-decoration: none;
   cursor: pointer;
 }
@@ -150,7 +151,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(1840px + 50vw);
+  height: calc(2250px + 50vw);
   overflow: hidden;
 }
 
@@ -205,7 +206,7 @@
   font-weight: 600;
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.8);
-  margin: 64px 0;
+  margin: 80px 0;
   letter-spacing: 0.05rem;
 }
 
@@ -268,7 +269,7 @@
   /* details */
 
   #theme-banner .banner-container h1 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   #theme-banner .banner-container h5 {
@@ -293,7 +294,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(2100px + 50vw)
+    height: calc(2300px + 60vw)
   }
 
   #theme-body .body-container .body-box p {
@@ -302,6 +303,7 @@
 
   #theme-body .body-container .body-box h2 {
     font-size: 1.2rem;
+    margin: 72px 0;
   }
 
   #theme-body .body-container .body-box .body-box-code .body-box-code-img {
@@ -320,7 +322,7 @@
 
   #theme-body .body-container .body-box-sponsor h2 {
     font-size: 1.2rem;
-    margin: 8px 0;
+    margin: 15px 0;
   }
 
 }
@@ -328,7 +330,7 @@
 /* ---------- mobile-middle ---------- */
 @media screen and (max-width: 620px) {
   .theme-container {
-    min-width: 315px;
+    min-width: 320px;
   }
 
   /* ---------- banner ---------- */
@@ -349,10 +351,10 @@
 
   /* content */
   #theme-banner .banner-container .banner-logo {
-    width: 80px;
-    height: 80px;
-    left: calc(50% - 40px);
-    top: calc(30% - 40px);
+    width: 90px;
+    height: 90px;
+    left: calc(50% - 45px);
+    top: calc(40% - 80px);
   }
 
   #theme-banner .banner-container h1 {
@@ -362,7 +364,7 @@
   }
 
   #theme-banner .banner-container h5 {
-    top: 50%;
+    top: calc(45% + 15px);
     font-size: 0.8rem;
   }
 
@@ -372,7 +374,6 @@
     left: calc(50% - 120px);
     padding: 6.4px 9.6px;
     top: calc(56% + 32px);
-
   }
 
   #theme-banner .banner-container a:visited {
@@ -393,7 +394,8 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-16px);
-    height: calc(1500px + 80vw);
+    height: calc(1570px + 80vw);
+    min-height: 1826px;
   }
 
   /* background */
@@ -425,7 +427,7 @@
 
   #theme-body .body-container .body-box h2 {
     font-size: 1rem;
-    margin: 64px 0 16px 0;
+    margin: 48px 0;
     letter-spacing: 0.02rem;
   }
 
@@ -440,6 +442,7 @@
 
   #theme-body .body-container .body-box-sponsor {
     height: 55vw;
+    min-height: 186px;
   }
 
   #theme-body .body-container .body-box-sponsor p {
@@ -449,81 +452,7 @@
 
   #theme-body .body-container .body-box-sponsor h2 {
     font-size: 1rem;
-    margin: 4.8px 0;
+    margin: 15px 0;
     letter-spacing: 0.02rem;
   }
-}
-
-/* ---------- mobile-small ---------- */
-@media screen and (max-width: 315px) {
-  .theme-container {
-    min-width: 260px;
-  }
-
-  /* ---------- banner ---------- */
-  #theme-banner .banner-container {
-    min-height: 0;
-  }
-
-  /* details */
-  #theme-banner .banner-container .banner-logo {
-    width: 60px;
-    height: 60px;
-    left: calc(50% - 30px);
-  }
-
-  #theme-banner .banner-container h1 {
-    font-size: 1rem;
-    letter-spacing: 0;
-    top: 39%;
-  }
-
-  #theme-banner .banner-container h5 {
-    font-size: 0.8rem;
-    top: 44%;
-  }
-
-  #theme-banner .banner-container a {
-    width: 200px;
-    left: calc(50% - 100px);
-    padding: 6.4px 9.6px;
-    font-size: 0.8rem;
-    top: calc(60% + 10px);
-  }
-
-  #theme-banner .banner-container a:hover {
-    font-size: 0.8rem;
-  }
-
-  #theme-banner .banner-container a:visited {
-    font-size: 0.8rem;
-  }
-
-
-  #theme-body .body-container {
-    height: calc(1240px + 100vw);
-    min-height: 1540px;
-  }
-
-  #theme-body .body-container .body-box h2 {
-    font-size: 0.8rem;
-    margin: 48px 0 16px 0;
-  }
-
-  #theme-body .body-container .body-box p {
-    font-size: 0.8rem;
-  }
-
-  #theme-body .body-container .body-box-sponsor h2 {
-    font-size: 0.8rem;
-  }
-
-  #theme-body .body-container .body-box-sponsor p {
-    font-size: 0.8rem;
-  }
-
-  #theme-body .body-container .body-box-sponsor {
-    min-height: 9rem;
-  }
-
 }
