@@ -139,9 +139,9 @@
     }
 
     .topic-info-box .topic-detail-box {
-        width: 60vw;
+        width: calc(35px + 50px);
         height: 140px;
-        min-width: 192px;
+        min-width: 210px;
         gap: 0;
     }
 

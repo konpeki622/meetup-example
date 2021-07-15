@@ -55,12 +55,12 @@
   color: #333366;
   font-size: 1.7rem;
   font-weight: 600;
-  letter-spacing: 0.08rem;
+  letter-spacing: 0.1rem;
 }
 
 #theme-banner .banner-container h5 {
   position: absolute;
-  top: 55%;
+  top: 56%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -80,7 +80,7 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: calc(60% + 40px);
+  top: calc(61% + 40px);
   left: calc(50% - 150px);
   text-align: center;
   vertical-align: middle;
