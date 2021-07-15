@@ -9,7 +9,7 @@
 }
 
 /* ---------- mobile-large ---------- */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1065px) {
     .sponser-container .sponser-logo {
         height: 25px;
     }

@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
   box-sizing: border-box;
-  min-width: 1024px;
+  min-width: 1065px;
   font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
 }
 
@@ -151,7 +151,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(2250px + 50vw);
+  height: calc(2000px + 60vw);
   overflow: hidden;
 }
 
@@ -260,7 +260,7 @@
 }
 
 /* ---------- mobile-large ---------- */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1065px) {
 
   .theme-container {
     min-width: 620px;
@@ -295,7 +295,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(2300px + 60vw)
+    height: calc(2200px + 60vw)
   }
 
   #theme-body .body-container .body-box p {
