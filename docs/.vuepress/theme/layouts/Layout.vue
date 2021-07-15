@@ -49,16 +49,14 @@
           <h2>LOCATION · 举办地点</h2>
           <p>{{ location }}</p>
           <h2 style="margin-bottom: 16px">SCHEDULE · 活动日程</h2>
-          <p>
-            <topic-list :topics="topicList"></topic-list>
-          </p>
+          <topic-list :topics="topicList"></topic-list>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
           <h2 style="margin-bottom: 8px">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
               alt="vueshenzhen-code"
-              src="/assets/images/vuesz-code-mobile.gif"
+              src="/assets/images/vuesz-code.gif"
               class="body-box-code-img"
             />
             <div class="body-box-code-slogan">{{ contact }}</div>
@@ -82,7 +80,7 @@
 
 <script>
 import HostList from "../components/HostList.vue";
-import SponserList from '../components/SponserList.vue';
+import SponserList from "../components/SponserList.vue";
 import TopicList from "../components/TopicList.vue";
 
 export default {
@@ -101,6 +99,7 @@ export default {
       contact: "扫码关注 VUE SHENZHEN 公众号",
       topicList: [
         {
+          id: 1,
           host: {
             hostName: "林成璋",
             hostDesc:
@@ -108,11 +107,13 @@ export default {
             portraitUrl: "/assets/images/amour1688.jpeg",
           },
           title: "Vue 3 + TypeScript 深度实践",
-          description: "以 Vue3 的静态类型系统实现为切入点，帮助初学者由浅入深学习 TypeScript"
+          description:
+            "以 Vue3 的静态类型系统实现为切入点，帮助初学者由浅入深学习 TypeScript",
         },
       ],
       hostList: [
         {
+          id: 1,
           hostName: "林成璋 (Amour1688)",
           hostDesc:
             "Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师。",
@@ -123,9 +124,9 @@ export default {
       sponserList: [
         {
           name: "掘金",
-          logo: "/assets/images/juejin-logo.png"
-        }
-      ]
+          logo: "/assets/images/juejin-logo.png",
+        },
+      ],
     };
   },
 };
