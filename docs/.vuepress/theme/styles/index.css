@@ -49,7 +49,7 @@
 
 #theme-banner .banner-container h1 {
   position: absolute;
-  top: 45%;
+  top: 47%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -60,7 +60,7 @@
 
 #theme-banner .banner-container h5 {
   position: absolute;
-  top: 53.5%;
+  top: 55%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -80,7 +80,7 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: calc(58% + 40px);
+  top: calc(60% + 40px);
   left: calc(50% - 150px);
   text-align: center;
   vertical-align: middle;
@@ -151,7 +151,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(2000px + 60vw);
+  height: calc(2300px + 50vw);
   overflow: hidden;
 }
 
@@ -206,7 +206,7 @@
   font-weight: 600;
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.8);
-  margin: 80px 0;
+  margin: 100px 0;
   letter-spacing: 0.05rem;
 }
 
@@ -221,7 +221,7 @@
 #theme-body .body-container .body-box .body-box-code .body-box-code-img {
   width: 100%;
   height: auto;
-  min-width: 600px;
+  min-width: 750px;
   max-width: 900px;
 }
 
@@ -308,7 +308,7 @@
   }
 
   #theme-body .body-container .body-box .body-box-code .body-box-code-img {
-    min-width: 360px;
+    min-width: 500px;
     width: 130%;
   }
 
@@ -399,8 +399,8 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-16px);
-    height: calc(1570px + 80vw);
-    min-height: 1855px;
+    height: calc(1500px + 80vw);
+    min-height: 1800px;
   }
 
   /* background */

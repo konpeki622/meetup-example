@@ -141,6 +141,8 @@
     .topic-info-box .topic-detail-box {
         width: 60vw;
         height: 140px;
+        min-width: 192px;
+        gap: 0;
     }
 
     .topic-info-box .topic-host-portrait {
