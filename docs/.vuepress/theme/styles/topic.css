@@ -41,9 +41,9 @@
 
 .topic-info-box .topic-process .process-next {
     position: absolute;
-    bottom: 40px;
+    bottom: 0;
     width: 7px;
-    height: 80px;
+    height: 120px;
     border-right: 2px dashed #69C5F6;
 }
 

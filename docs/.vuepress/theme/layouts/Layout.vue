@@ -54,7 +54,7 @@
           </p>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
-          <h2 style="margin-bottom: 0.5rem">CONTACT US · 联系我们</h2>
+          <h2 style="margin-bottom: 8px">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
               alt="vueshenzhen-code"

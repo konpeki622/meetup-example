@@ -6,7 +6,7 @@
         <div class="topic-process">
           <div v-if="index > 0" class="process-previous"></div>
           <div class="process-node"></div>
-          <div class="process-next"></div>
+          <div v-if="index < topics.length - 1" class="process-next"></div>
         </div>
         <div class="topic-detail-box">
           <div class="topic-title-flex">

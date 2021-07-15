@@ -4,7 +4,7 @@
     justify-content: center;
     width: 100%;
     gap: 10%;
-    margin: 144px 0;
+    margin-bottom: 192px;
 }
 
 .host-container .host-box {
@@ -73,7 +73,7 @@
 @media screen and (max-width: 1065px) {
 
     .host-container {
-        margin: 0;
+        margin-bottom: 0;
     }
 
     .host-container {
@@ -85,9 +85,6 @@
 
 /* ---------- mobile-middle ---------- */
 @media screen and (max-width: 620px) {
-    .host-container {
-        margin: 64px 0;
-    }
 
     .host-container .host-box .host-detail {
         margin-top: 16px;

@@ -400,7 +400,7 @@
     width: 90%;
     transform: translateY(-16px);
     height: calc(1570px + 80vw);
-    min-height: 1826px;
+    min-height: 1855px;
   }
 
   /* background */
@@ -447,7 +447,7 @@
 
   #theme-body .body-container .body-box-sponsor {
     height: 55vw;
-    min-height: 186px;
+    min-height: 194px;
   }
 
   #theme-body .body-container .body-box-sponsor p {
