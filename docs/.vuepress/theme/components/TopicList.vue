@@ -1,8 +1,16 @@
 <template>
   <div class="topic-container">
-    <div v-for="(topic, index) in topics" :key="topic.id" class="topic-info-box">
+    <div
+      v-for="(topic, index) in topics"
+      :key="topic.id"
+      class="topic-info-box"
+    >
       <div class="topic-info-box">
-        <img class="topic-host-portrait" :src="topic.host.portraitUrl" />
+        <img
+          :alt="topic.host.hostName"
+          class="topic-host-portrait"
+          :src="topic.host.portraitUrl"
+        />
         <div class="topic-process">
           <div v-if="index > 0" class="process-previous"></div>
           <div class="process-node"></div>

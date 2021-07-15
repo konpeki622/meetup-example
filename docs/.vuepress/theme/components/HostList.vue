@@ -3,7 +3,7 @@
     <div class="host-box" v-for="host in hosts" :key="host.id">
       <div class="host-portrait">
         <img
-          :class="`portrait-img${host.portraitUrl? '' : '--default'}`"
+          :class="`portrait-img${host.portraitUrl ? '' : '--default'}`"
           :alt="host.hostName"
           :src="
             host.portraitUrl

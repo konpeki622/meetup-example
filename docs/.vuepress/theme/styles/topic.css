@@ -139,7 +139,7 @@
     }
 
     .topic-info-box .topic-detail-box {
-        width: calc(35px + 50px);
+        width: calc(35px + 50vw);
         height: 140px;
         min-width: 210px;
         gap: 0;
