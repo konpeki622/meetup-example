@@ -2,21 +2,28 @@
     display: flex;
     justify-content: center;
     margin: 144px 0;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
 }
 
 .partner-container .partner-logo {
     height: 40px;
     width: auto;
+    margin: 10px;
+    flex-shrink: 0;
 }
 
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1065px) {
     .partner-container {
         margin: 112px 0;
+        gap: 22.5px;
     }
 
     .partner-container .partner-logo {
         height: 30px;
+        margin: 7.5px;
     }
 }
 
@@ -24,9 +31,5 @@
 @media screen and (max-width: 620px) {
     .partner-container {
         margin: 80px 0;
-    }
-
-    .partner-container .partner-logo {
-        height: 30px;
     }
 }

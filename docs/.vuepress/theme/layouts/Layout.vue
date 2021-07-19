@@ -128,7 +128,13 @@ export default {
         {
           name: "掘金",
           logo: "/assets/images/juejin-logo.png",
+          link: "https://www.juejin.cn"
         },
+        {
+          name: "活动行",
+          logo: "/assets/images/huodongx-logo.png",
+          link: "https://www.huodongxing.com/",
+        }
       ],
     };
   },

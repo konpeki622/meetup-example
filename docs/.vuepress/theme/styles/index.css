@@ -397,8 +397,8 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-16px);
-    height: calc(1750px + 80vw);
-    min-height: 2050px;
+    height: calc(1770px + 80vw);
+    min-height: 2070px;
   }
 
   /* background */
