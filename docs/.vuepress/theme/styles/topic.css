@@ -50,7 +50,7 @@
 .topic-info-box .topic-detail-box {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
     height: 240px;
     width: 32vw;
     max-width: 680px;
@@ -79,12 +79,21 @@
     text-align: start;
 }
 
-.topic-info-box .topic-detail-box p {
-    font-size: 0.9rem;
+.topic-info-box .topic-detail-box .topic-schedule {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: start;
+    letter-spacing: 0;
+    color: #69C5F6;
     margin: 0;
+}
+
+.topic-info-box .topic-detail-box .topic-description {
+    font-size: 0.9rem;
     font-weight: 100;
     text-align: start;
-    letter-spacing: 0rem;
+    letter-spacing: 0;
+    margin: 0;
 }
 
 /* ---------- mobile-large ---------- */
@@ -110,6 +119,7 @@
         height: 133px;
         margin-top: 0;
         justify-content: flex-end;
+        flex-shrink: 0;
     }
 
     .topic-info-box .topic-detail-box .topic-title-flex h3 {
@@ -119,10 +129,6 @@
 
     .topic-info-box .topic-detail-box .topic-title-flex h4 {
         font-size: 1.1rem;
-    }
-
-    .topic-info-box .topic-detail-box p {
-        margin-top: 3px;
     }
 }
 
@@ -134,13 +140,13 @@
     }
 
     .topic-info-box {
-        height: 140px;
+        height: 160px;
         margin: 4px 0;
     }
 
     .topic-info-box .topic-detail-box {
-        width: calc(35px + 50vw);
-        height: 140px;
+        width: calc(50px + 50vw);
+        height: 160px;
         min-width: 210px;
         gap: 0;
     }
@@ -150,29 +156,29 @@
     }
 
     .topic-info-box .topic-process {
-        height: 140px;
+        height: 160px;
         width: 12px;
-        margin: 0 30px 0 15px;
+        margin: 0 16px 0 8px;
     }
 
     .topic-info-box .topic-process .process-previous {
         width: 5px;
-        height: 70px;
+        height: 80px;
     }
 
     .topic-info-box .topic-process .process-node {
-        top: 64px;
+        top: 74px;
         width: 12px;
         height: 12px;
     }
 
     .topic-info-box .topic-process .process-next {
         width: 5px;
-        height: 70px;
+        height: 80px;
     }
 
     .topic-info-box .topic-detail-box .topic-title-flex {
-        height: 81px;
+        height: 91px;
         margin-top: 0;
         justify-content: flex-end;
     }
@@ -185,7 +191,10 @@
         font-size: 0.9rem;
     }
 
-    .topic-info-box .topic-detail-box p {
+    .topic-info-box .topic-detail-box .topic-schedule {
+        font-size: 0.8rem;
+    }
+    .topic-info-box .topic-detail-box .topic-description {
         font-size: 0.8rem;
     }
 }

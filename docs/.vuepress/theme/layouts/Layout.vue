@@ -52,6 +52,8 @@
           <topic-list :topics="topicList"></topic-list>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
+          <h2>PARTNERS · 合作伙伴</h2>
+          <partner-list :partners="partnerList"></partner-list>
           <h2 style="margin-bottom: 8px">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
@@ -65,7 +67,7 @@
         <div class="body-box-sponsor">
           <h2>SPONSOR · 赞助者</h2>
           <p>
-            <sponser-list :sponsers="sponserList"></sponser-list>
+            虚位以待
           </p>
         </div>
         <img
@@ -80,14 +82,14 @@
 
 <script>
 import HostList from "../components/HostList.vue";
-import SponserList from "../components/SponserList.vue";
+import PartnerList from "../components/PartnerList.vue";
 import TopicList from "../components/TopicList.vue";
 
 export default {
   components: {
     TopicList,
     HostList,
-    SponserList,
+    PartnerList,
   },
 
   data() {
@@ -107,6 +109,7 @@ export default {
             portraitUrl: "/assets/images/amour1688.jpeg",
           },
           title: "Vue 3 + TypeScript 深度实践",
+          schedule: "15:00-16:00",
           description:
             "以 Vue3 的静态类型系统实现为切入点，帮助初学者由浅入深学习 TypeScript",
         },
@@ -121,7 +124,7 @@ export default {
         },
         { hostName: "神秘嘉宾", hostDesc: "敬请期待" },
       ],
-      sponserList: [
+      partnerList: [
         {
           name: "掘金",
           logo: "/assets/images/juejin-logo.png",

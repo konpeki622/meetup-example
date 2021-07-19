@@ -21,7 +21,8 @@
             <h3>{{ topic.host.hostName }}</h3>
             <h4>{{ topic.title }}</h4>
           </div>
-          <p>{{ topic.description }}</p>
+          <p class="topic-schedule">{{ topic.schedule }}</p>
+          <p class="topic-description">{{ topic.description }}</p>
         </div>
       </div>
     </div>

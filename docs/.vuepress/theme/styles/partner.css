@@ -1,0 +1,32 @@
+.partner-container {
+    display: flex;
+    justify-content: center;
+    margin: 144px 0;
+}
+
+.partner-container .partner-logo {
+    height: 40px;
+    width: auto;
+}
+
+/* ---------- mobile-large ---------- */
+@media screen and (max-width: 1065px) {
+    .partner-container {
+        margin: 112px 0;
+    }
+
+    .partner-container .partner-logo {
+        height: 30px;
+    }
+}
+
+/* ---------- mobile-middle ---------- */
+@media screen and (max-width: 620px) {
+    .partner-container {
+        margin: 80px 0;
+    }
+
+    .partner-container .partner-logo {
+        height: 30px;
+    }
+}
