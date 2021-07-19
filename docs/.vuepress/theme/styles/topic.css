@@ -50,7 +50,7 @@
 .topic-info-box .topic-detail-box {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 3px;
     height: 240px;
     width: 32vw;
     max-width: 680px;
