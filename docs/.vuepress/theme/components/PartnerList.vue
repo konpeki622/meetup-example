@@ -1,9 +1,9 @@
 <template>
   <div class="partner-container">
-    <div v-for="partner in partners" :key="partner.id">
+    <div v-for="partner in partners" :key="partner.key">
       <img
         @click="newTabTo(partner.link)"
-        class="partner-logo"
+        :class="`partner-logo ${partner.key}`"
         :alt="partner.name"
         :src="partner.logo"
       />

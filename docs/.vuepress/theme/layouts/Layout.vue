@@ -52,8 +52,6 @@
           <topic-list :topics="topicList"></topic-list>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
-          <h2>PARTNERS · 合作伙伴</h2>
-          <partner-list :partners="partnerList"></partner-list>
           <h2 style="margin-bottom: 8px">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
@@ -65,10 +63,8 @@
           </div>
         </div>
         <div class="body-box-sponsor">
-          <h2>SPONSOR · 赞助者</h2>
-          <p>
-            虚位以待
-          </p>
+          <h2>PARTNERS · 合作伙伴</h2>
+          <partner-list :partners="partnerList"></partner-list>
         </div>
         <img
           alt="bottom-img"
@@ -128,12 +124,14 @@ export default {
         {
           name: "掘金",
           logo: "/assets/images/juejin-logo.png",
-          link: "https://www.juejin.cn"
+          link: "https://www.juejin.cn",
+          key: "juejin"
         },
         {
           name: "活动行",
           logo: "/assets/images/huodongx-logo.png",
           link: "https://www.huodongxing.com/",
+          key: "huodongx"
         }
       ],
     };

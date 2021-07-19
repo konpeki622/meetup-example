@@ -150,7 +150,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(2700px + 50vw);
+  height: calc(2300px + 50vw);
   overflow: hidden;
 }
 
@@ -293,7 +293,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(2400px + 70vw)
+    height: calc(2250px + 60vw)
   }
 
   #theme-body .body-container .body-box p {
@@ -397,8 +397,8 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-16px);
-    height: calc(1770px + 80vw);
-    min-height: 2070px;
+    height: calc(1570px + 80vw);
+    min-height: 1870px;
   }
 
   /* background */
