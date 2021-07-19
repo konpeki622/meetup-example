@@ -109,7 +109,7 @@ export default {
             portraitUrl: "/assets/images/amour1688.jpeg",
           },
           title: "Vue 3 + TypeScript 深度实践",
-          schedule: "15:00-16:00",
+          schedule: "15:00 - 15:40",
           description:
             "以 Vue3 的静态类型系统实现为切入点，帮助初学者由浅入深学习 TypeScript",
         },

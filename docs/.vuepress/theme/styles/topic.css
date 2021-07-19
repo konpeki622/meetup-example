@@ -81,7 +81,7 @@
 
 .topic-info-box .topic-detail-box .topic-schedule {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: start;
     letter-spacing: 0;
     color: #69C5F6;
@@ -98,7 +98,6 @@
 
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1065px) {
-
     .topic-info-box .topic-host-portrait {
         border-radius: 50%;
         width: 120px;
@@ -134,7 +133,6 @@
 
 /* 手机 */
 @media screen and (max-width: 620px) {
-
     .topic-container {
         margin-bottom: 0;
     }
@@ -145,10 +143,10 @@
     }
 
     .topic-info-box .topic-detail-box {
-        width: calc(50px + 50vw);
+        width: 67vw;
         height: 160px;
         min-width: 210px;
-        gap: 0;
+        gap: 4px;
     }
 
     .topic-info-box .topic-host-portrait {

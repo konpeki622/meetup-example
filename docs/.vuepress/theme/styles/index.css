@@ -419,8 +419,8 @@
   #theme-body .body-container .body-box .body-box-time-icon {
     width: 0.9rem;
     height: 0.9rem;
-    margin-right: 3.2px;
-    transform: translateY(0.1rem);
+    margin-right: 12px;
+    transform: translateY(0.15rem);
   }
 
   #theme-body .body-container .body-box p {
