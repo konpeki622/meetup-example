@@ -1,4 +1,6 @@
-.topic-container {}
+.topic-container {
+    margin-bottom: 120px;
+}
 
 .topic-info-box {
     display: flex;
@@ -13,6 +15,7 @@
     width: 120px;
     height: 120px;
     object-fit: cover;
+    margin-left: 5vw;
 }
 
 .topic-info-box .topic-process {
@@ -98,9 +101,6 @@
 
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1065px) {
-    .topic-container {
-        margin-bottom: 120px;
-    }
 
     .topic-info-box {
         height: 280px;
@@ -109,6 +109,7 @@
     .topic-info-box .topic-host-portrait {
         width: 90px;
         height: 90px;
+        margin-left: 0;
     }
 
     .topic-info-box .topic-process {
@@ -171,9 +172,6 @@
 
 /* 手机 */
 @media screen and (max-width: 620px) {
-    .topic-container {
-        margin-bottom: 120px;
-    }
 
     .topic-info-box {
         height: 180px;

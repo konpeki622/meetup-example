@@ -93,7 +93,7 @@ export default {
     return {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
-      location: "深圳市龙岗区坂田天安云谷 2栋 - 2楼 - AI创新中心",
+      location: "深圳市龙岗区坂田天安云谷2栋-2楼-AI创新中心",
       guide: "（地铁十号线岗头站C1出口，左转往西350m）",
       time: "2021年8月21日 周六",
       contact: "扫码关注 VUE SHENZHEN 公众号",
