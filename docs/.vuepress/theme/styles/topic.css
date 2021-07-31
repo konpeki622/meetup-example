@@ -1,5 +1,5 @@
 .topic-container {
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 
 .topic-info-box {
@@ -53,9 +53,9 @@
 .topic-info-box .topic-detail-box {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 5px;
     height: 240px;
-    width: 32vw;
+    width: 40vw;
     max-width: 680px;
 }
 
@@ -63,6 +63,7 @@
     display: flex;
     align-items: flex-end;
     height: 133px;
+    flex-shrink: 0;
 }
 
 .topic-info-box .topic-detail-box .topic-title-flex h3 {
@@ -147,7 +148,6 @@
         height: 133px;
         margin-top: 0;
         justify-content: flex-end;
-        flex-shrink: 0;
     }
 
     .topic-info-box .topic-detail-box .topic-title-flex h3 {

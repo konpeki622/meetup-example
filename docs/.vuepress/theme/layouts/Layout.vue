@@ -94,7 +94,7 @@ export default {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
       location: "深圳市龙岗区坂田天安云谷2栋-2楼-AI创新中心",
-      guide: "（地铁十号线岗头站C1出口，左转往西350m）",
+      guide: "（地铁10号线岗头站C1出口，左转往西350m）",
       time: "2021年8月21日 周六",
       contact: "扫码关注 VUE SHENZHEN 公众号",
       topicList: [
@@ -119,7 +119,7 @@ export default {
               "开源技术爱好者，axios、exceljs、cJSON等社区maintainer，华为软件工程师。",
             portraitUrl: "/assets/images/wangpeng.jpeg",
           },
-          title: "基于 vue-codemod 工具的 Vue 2 升级 Vue 3 最佳实践",
+          title: "基于 vue-codemod 工具的 Vue 3 升级最佳实践",
           schedule: "16:00 - 16:40",
           description:
             "基于 AST 技术对 Vue 2 语法进行解析，自动将源码升级为 Vue 3 语法，结合从大量开源项目中总结出的手动升级手册，最后辅以 vue-compat 工具做运行时兼容，修复少量运行时告警，帮助开发者将 Vue 2 项目快速升级到 Vue 3",
