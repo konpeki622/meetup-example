@@ -48,10 +48,11 @@
           </p>
           <h2>LOCATION · 举办地点</h2>
           <p>{{ location }}</p>
-          <h2 style="margin-bottom: 16px">SCHEDULE · 活动日程</h2>
-          <topic-list :topics="topicList"></topic-list>
+          <p class="desc">{{ guide }}</p>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
+          <h2 style="margin-bottom: 16px">SCHEDULE · 活动日程</h2>
+          <topic-list :topics="topicList"></topic-list>
           <h2 style="margin-bottom: 8px">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
@@ -92,7 +93,8 @@ export default {
     return {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
-      location: "深圳市龙岗区坂田天安云谷（暂定）",
+      location: "深圳市龙岗区坂田天安云谷 2栋 - 2楼 - AI创新中心",
+      guide: "交通线路：地铁十号线岗头站C1出口，左转往西350m",
       time: "2021年8月21日 周六",
       contact: "扫码关注 VUE SHENZHEN 公众号",
       topicList: [
@@ -109,6 +111,19 @@ export default {
           description:
             "以 Vue3 的静态类型系统实现为切入点，帮助初学者由浅入深学习 TypeScript",
         },
+        {
+          id: 2,
+          host: {
+            hostName: "王鹏",
+            hostDesc:
+              "开源技术爱好者，axios、exceljs、cJSON等社区maintainer，华为软件工程师。",
+            portraitUrl: "/assets/images/wangpeng.jpeg",
+          },
+          title: "基于 vue-codemod 工具的 Vue 2 升级 Vue 3 最佳实践",
+          schedule: "16:00 - 16:40",
+          description:
+            "基于 AST 技术对 Vue 2 语法进行解析，自动将源码升级为 Vue 3 语法，结合从大量开源项目中总结出的手动升级手册，最后辅以 vue-compat 工具做运行时兼容，修复少量运行时告警，帮助开发者将 Vue 2 项目快速升级到 Vue 3",
+        },
       ],
       hostList: [
         {
@@ -118,7 +133,12 @@ export default {
             "Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师。",
           portraitUrl: "/assets/images/amour1688.jpeg",
         },
-        { hostName: "神秘嘉宾", hostDesc: "敬请期待" },
+        { id: 2,
+          hostName: "王鹏",
+          hostDesc:
+            "开源技术爱好者，axios 、exceljs 、cJSON 等社区 maintainer，华为软件工程师。",
+          portraitUrl: "/assets/images/wangpeng.jpeg",
+        },
       ],
       partnerList: [
         {

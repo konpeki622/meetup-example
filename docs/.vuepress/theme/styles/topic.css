@@ -98,14 +98,42 @@
 
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1065px) {
+    .topic-container {
+        margin-bottom: 120px;
+    }
+
+    .topic-info-box {
+        height: 280px;
+    }
+
     .topic-info-box .topic-host-portrait {
-        border-radius: 50%;
-        width: 120px;
-        height: 120px
+        width: 90px;
+        height: 90px;
     }
 
     .topic-info-box .topic-process {
-        margin: 0 24px;
+        height: 280px;
+    }
+
+    .topic-info-box .topic-process .process-previous {
+        width: 6px;
+        height: 140px;
+    }
+
+    .topic-info-box .topic-process .process-node {
+        height: 14px;
+        width: 14px;
+        top: 133px;
+    }
+
+    .topic-info-box .topic-process .process-next {
+        width: 6px;
+        height: 140px;
+    }
+
+    .topic-info-box .topic-detail-box .topic-title-flex {
+        height: 153px;
+        min-width: 130px;
     }
 
     .topic-info-box .topic-detail-box {
@@ -131,20 +159,30 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .topic-info-box .topic-detail-box {
+        width: 40vw;
+    }
+
+    .topic-info-box .topic-host-portrait {
+        display: none;
+    }
+}
+
 /* 手机 */
 @media screen and (max-width: 620px) {
     .topic-container {
-        margin-bottom: 0;
+        margin-bottom: 120px;
     }
 
     .topic-info-box {
-        height: 160px;
+        height: 180px;
         margin: 4px 0;
     }
 
     .topic-info-box .topic-detail-box {
         width: 67vw;
-        height: 160px;
+        height: 220px;
         min-width: 210px;
         gap: 4px;
     }
@@ -154,29 +192,29 @@
     }
 
     .topic-info-box .topic-process {
-        height: 160px;
+        height: 220px;
         width: 12px;
         margin: 0 16px 0 8px;
     }
 
     .topic-info-box .topic-process .process-previous {
         width: 5px;
-        height: 80px;
+        height: 110px;
     }
 
     .topic-info-box .topic-process .process-node {
-        top: 74px;
+        top: 104px;
         width: 12px;
         height: 12px;
     }
 
     .topic-info-box .topic-process .process-next {
         width: 5px;
-        height: 80px;
+        height: 110px;
     }
 
     .topic-info-box .topic-detail-box .topic-title-flex {
-        height: 91px;
+        height: 121px;
         margin-top: 0;
         justify-content: flex-end;
     }
@@ -194,5 +232,6 @@
     }
     .topic-info-box .topic-detail-box .topic-description {
         font-size: 0.8rem;
+        overflow: visible;
     }
 }
