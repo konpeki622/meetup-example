@@ -3,7 +3,7 @@
 .topic-info-box {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     height: 240px;
     margin: 4px 0;
 }

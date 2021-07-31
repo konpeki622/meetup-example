@@ -48,7 +48,7 @@
           </p>
           <h2>LOCATION · 举办地点</h2>
           <p>{{ location }}</p>
-          <p class="desc">{{ guide }}</p>
+          <p>{{ guide }}</p>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
           <h2 style="margin-bottom: 16px">SCHEDULE · 活动日程</h2>
@@ -94,7 +94,7 @@ export default {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
       location: "深圳市龙岗区坂田天安云谷 2栋 - 2楼 - AI创新中心",
-      guide: "交通线路：地铁十号线岗头站C1出口，左转往西350m",
+      guide: "（地铁十号线岗头站C1出口，左转往西350m）",
       time: "2021年8月21日 周六",
       contact: "扫码关注 VUE SHENZHEN 公众号",
       topicList: [

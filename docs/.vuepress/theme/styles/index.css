@@ -197,7 +197,6 @@
   font-size: 1rem;
   letter-spacing: 0.04rem;
   color: rgba(0, 0, 0, 0.6);
-  margin: 9px 0;
 }
 
 #theme-body .body-container .body-box h2 {
@@ -208,15 +207,6 @@
   color: rgba(0, 0, 0, 0.8);
   margin: 100px 0;
   letter-spacing: 0.05rem;
-}
-
-#theme-body .body-container .body-box .desc {
-  width: 100%;
-  text-align: center;
-  font-weight: 300;
-  font-size: 0.85rem;
-  letter-spacing: 0.04rem;
-  color: rgba(0, 0, 0, 0.4);
 }
 
 #theme-body .body-container .body-box .body-box-code {
@@ -451,7 +441,6 @@
   #theme-body .body-container .body-box p {
     font-size: 0.8rem;
     letter-spacing: 0.02rem;
-    margin: 3px 0;
   }
 
   #theme-body .body-container .body-box h2 {
