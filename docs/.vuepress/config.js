@@ -32,9 +32,15 @@ module.exports = {
             name: 'google-site-verification',
             content: 'UFFfhTzuoTYnMv5Pm34tNrw59qR_rm5KpPG3adgDkyY'
         }],
+        // 百度推送
         ['script', {
             src: "/assets/js/autopush-baidu.js"
-        }]
+        }],
+        // 百度地图
+        ['script', {
+            type: 'text/javascript',
+            src: 'https://api.map.baidu.com/api?v=1.0&type=webgl&ak=35EPB0qFsmdCnpPbq6TYkyTAMGyPgEgv'
+        }],
     ],
     plugins: [
         ['sitemap', {

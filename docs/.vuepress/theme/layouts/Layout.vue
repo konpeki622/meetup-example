@@ -49,6 +49,7 @@
           <h2>LOCATION · 举办地点</h2>
           <p>{{ location }}</p>
           <p>{{ guide }}</p>
+          <div class="map-flex"><div id="mapContainer"></div></div>
           <h2>GUEST SPEAKER · 演讲嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
           <h2 style="margin-bottom: 16px">SCHEDULE · 活动日程</h2>
@@ -133,7 +134,8 @@ export default {
             "Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师。",
           portraitUrl: "/assets/images/amour1688.jpeg",
         },
-        { id: 2,
+        {
+          id: 2,
           hostName: "王鹏",
           hostDesc:
             "开源技术爱好者，axios 、exceljs 、cJSON 等社区 maintainer，华为软件工程师。",
@@ -145,17 +147,45 @@ export default {
           name: "掘金",
           logo: "/assets/images/juejin-logo.png",
           link: "https://www.juejin.cn",
-          key: "juejin"
+          key: "juejin",
         },
         {
           name: "活动行",
           logo: "/assets/images/huodongx-logo.png",
           link: "https://www.huodongxing.com/",
-          key: "huodongx"
-        }
+          key: "huodongx",
+        },
       ],
+      resultHtml: "",
     };
   },
+
+  mounted() {
+    var map = new BMapGL.Map("mapContainer", {
+      enableRotate: false,
+      enableTilt: false,
+    });
+    var point = new BMapGL.Point(114.077584, 22.664015);
+    map.centerAndZoom(point, 18);
+    map.enableScrollWheelZoom(true);
+    var walking = new BMapGL.WalkingRoute(map, {
+      renderOptions: { map: map, autoViewport: true },
+    });
+    walking.search("岗头地铁站-C1口", "天安云谷1期南区-2栋");
+    walking.setPolylinesSetCallback(function (lines) {
+      for (var line in lines) {
+        lines[line].getPolyline().setStrokeOpacity(0.5);
+      }
+    });
+  },
+
+  methods: {
+    toApp: function() {
+      window.location.href = "http://baidumap://map/direction?mode=[walking:步行]&origin=114.079249,22.664086&destination=114.076516,22.664742®ion=440307"
+    }
+  },
+
+  destroyed() {},
 };
 </script>
 
