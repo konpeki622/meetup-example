@@ -36,6 +36,9 @@ module.exports = {
         ['script', {
             src: "/assets/js/autopush-baidu.js"
         }],
+        ['script', {
+            src: "/assets/js/tongji-baidu.js"
+        }],
         // 百度地图
         ['script', {
             type: 'text/javascript',
