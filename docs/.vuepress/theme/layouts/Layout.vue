@@ -179,12 +179,6 @@ export default {
     });
   },
 
-  methods: {
-    toApp: function() {
-      window.location.href = "http://baidumap://map/direction?mode=[walking:步行]&origin=114.079249,22.664086&destination=114.076516,22.664742®ion=440307"
-    }
-  },
-
   destroyed() {},
 };
 </script>
