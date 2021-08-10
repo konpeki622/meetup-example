@@ -47,6 +47,11 @@
 
 /* ---------- mobile-middle ---------- */
 @media screen and (max-width: 620px) {
+    .partner-container {
+        margin: 0;
+        gap: 5px;
+    }
+
     .partner-container .partner-logo {
         height: 15px;
         width: auto;
@@ -59,6 +64,6 @@
     }
 
     .partner-container .oschina {
-        height: 25px;
+        height: 20px;
     }
 }
