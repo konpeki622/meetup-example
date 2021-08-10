@@ -42,7 +42,7 @@ module.exports = {
         // 百度地图
         ['script', {
             type: 'text/javascript',
-            src: 'https://api.map.baidu.com/api?v=1.0&type=webgl&ak=35EPB0qFsmdCnpPbq6TYkyTAMGyPgEgv'
+            src: 'https://api.map.baidu.com/api?v=3.0&ak=35EPB0qFsmdCnpPbq6TYkyTAMGyPgEgv'
         }],
     ],
     plugins: [
