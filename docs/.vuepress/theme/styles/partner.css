@@ -13,10 +13,15 @@
     width: auto;
     margin: 10px;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .partner-container .huodongx {
     height: 50px;
+}
+
+.partner-container .oschina {
+    height: 40px;
 }
 
 /* ---------- mobile-large ---------- */
@@ -34,6 +39,10 @@
     .partner-container .huodongx {
         height: 40px;
     }
+
+    .partner-container .oschina {
+        height: 30px;
+    }
 }
 
 /* ---------- mobile-middle ---------- */
@@ -46,6 +55,10 @@
     }
 
     .partner-container .huodongx {
+        height: 25px;
+    }
+
+    .partner-container .oschina {
         height: 25px;
     }
 }

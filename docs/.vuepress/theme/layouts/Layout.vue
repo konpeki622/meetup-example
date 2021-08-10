@@ -155,6 +155,12 @@ export default {
           link: "https://www.huodongxing.com/",
           key: "huodongx",
         },
+        {
+          name: "开源中国",
+          logo: "/assets/images/oschina-logo.svg",
+          link: "https://www.oschina.net/",
+          key: "oschina",
+        },
       ],
       resultHtml: "",
     };
