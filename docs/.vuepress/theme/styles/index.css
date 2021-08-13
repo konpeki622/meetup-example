@@ -160,7 +160,7 @@
   z-index: 1;
   width: 110%;
   height: auto;
-  top: -112px;
+  top: -8vw;
   right: -16px;
 }
 
@@ -308,6 +308,10 @@
     height: calc(3200px + 60vw)
   }
 
+  #theme-body .body-container .body-top-img {
+    top: -5vw;
+  }
+
   #theme-body .body-container .body-box p {
     font-size: 1rem;
   }
@@ -336,7 +340,7 @@
   }
 
   #theme-body .body-container .body-box-sponsor {
-    gap: 0;
+    gap: 5px;
   }
 
   #theme-body .body-container .body-box-sponsor p {
@@ -345,8 +349,8 @@
   }
 
   #theme-body .body-container .body-box-sponsor h2 {
-    font-size: 1.2rem;
-    margin: 15px 0;
+    font-size: 1rem;
+    margin: 10px 0;
   }
 
 }
@@ -435,7 +439,7 @@
 
   /* background */
   #theme-body .body-container .body-top-img {
-    top: -32px;
+    top: -30px;
   }
 
   #theme-body .body-container .body-bottom-img {
@@ -482,6 +486,7 @@
   #theme-body .body-container .body-box-sponsor {
     height: 55vw;
     min-height: 194px;
+    gap: 0;
   }
 
   #theme-body .body-container .body-box-sponsor p {

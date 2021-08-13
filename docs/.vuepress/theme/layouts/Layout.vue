@@ -161,6 +161,12 @@ export default {
           link: "https://www.oschina.net/",
           key: "oschina",
         },
+        {
+          name: "哔哩哔哩视频",
+          logo: "/assets/images/bilibili-logo.png",
+          link: "https://www.bilibili.com/",
+          key: "bilibili",
+        },
       ],
       resultHtml: "",
     };
