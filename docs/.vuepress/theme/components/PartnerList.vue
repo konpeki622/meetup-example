@@ -2,7 +2,7 @@
   <div class="partner-container">
     <div v-for="partner in partners" :key="partner.key">
       <img
-        @click="newTabTo(partner.link)"
+        @click="openNewTabTo(partner.link)"
         :class="`partner-logo ${partner.key}`"
         :alt="partner.name"
         :src="partner.logo"
@@ -15,7 +15,7 @@
 export default {
   props: ["partners"],
   methods: {
-    newTabTo(url) {
+    openNewTabTo(url) {
       window.open(url, "_blank");
     },
   },

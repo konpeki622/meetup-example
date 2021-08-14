@@ -173,24 +173,30 @@ export default {
   },
 
   mounted() {
-    var map = new BMap.Map("mapContainer", {
-      enableRotate: false,
-      enableTilt: false,
-    });
-    var point = new BMap.Point(114.077584, 22.664015);
-    map.centerAndZoom(point, 18);
-    map.enableScrollWheelZoom(true);
-    var walking = new BMap.WalkingRoute(map, {
-      renderOptions: { map: map },
-    });
-    const start = new BMap.Point(114.079317, 22.664187);
-    const end = new BMap.Point(114.076516, 22.664742);
-    walking.search(start, end);
-    walking.setPolylinesSetCallback(function (lines) {
-      for (var line in lines) {
-        lines[line].getPolyline().setStrokeOpacity(0.6);
-      }
-    });
+    this.initMap();
+  },
+
+  methods: {
+    initMap: function () {
+      var map = new BMap.Map("mapContainer", {
+        enableRotate: false,
+        enableTilt: false,
+      });
+      var point = new BMap.Point(114.077584, 22.664015);
+      map.centerAndZoom(point, 18);
+      map.enableScrollWheelZoom(true);
+      var walking = new BMap.WalkingRoute(map, {
+        renderOptions: { map: map },
+      });
+      const start = new BMap.Point(114.079317, 22.664187);
+      const end = new BMap.Point(114.076516, 22.664742);
+      walking.search(start, end);
+      walking.setPolylinesSetCallback(function (lines) {
+        for (var line in lines) {
+          lines[line].getPolyline().setStrokeOpacity(0.6);
+        }
+      });
+    },
   },
 
   destroyed() {},
