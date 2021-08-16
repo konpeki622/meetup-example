@@ -107,7 +107,7 @@ export default {
               "Vue.js 团队成员，Vue 3 JSX 插件维护者，字节跳动前端工程师",
             portraitUrl: "/assets/images/amour1688.jpeg",
           },
-          title: "Vue 3 + TypeScript 深度实践",
+          title: "Vue 3 TypeScript 体操实践",
           schedule: "15:00 - 15:40",
           description:
             "以 Vue3 的静态类型系统实现为切入点，帮助初学者由浅入深学习 TypeScript",
