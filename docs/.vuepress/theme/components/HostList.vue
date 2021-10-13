@@ -13,7 +13,7 @@
         />
       </div>
       <div class="host-detail">
-        <div class="host-text-name">{{ host.hostName }}</div>
+        <a class="host-text-name" :href="host.link" target="_blank">{{ host.hostName }}</a>
         <div class="host-text-desc" v-if="host.hostDesc">
           {{ host.hostDesc }}
         </div>

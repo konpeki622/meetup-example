@@ -43,13 +43,13 @@
   width: 130px;
   height: 130px;
   position: absolute;
-  top: calc(40% - 90px);
+  top: calc(36% - 90px);
   left: calc(50% - 65px);
 }
 
 #theme-banner .banner-container h1 {
   position: absolute;
-  top: 47%;
+  top: 44%;
   width: 100%;
   text-align: center;
   color: #333366;
@@ -60,11 +60,11 @@
 
 #theme-banner .banner-container h5 {
   position: absolute;
-  top: 56%;
+  top: 54%;
   width: 100%;
   text-align: center;
   color: #333366;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 0.03rem;
 }
@@ -150,7 +150,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(3200px + 50vw);
+  height: calc(2000px + 50vw);
   overflow: hidden;
 }
 
@@ -195,7 +195,8 @@
   text-align: center;
   font-weight: 300;
   font-size: 1rem;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.05rem;
+  line-height: 2rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
@@ -305,7 +306,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(3200px + 60vw)
+    height: calc(1500px + 60vw)
   }
 
   #theme-body .body-container .body-top-img {
@@ -357,7 +358,7 @@
 
 @media screen and (max-width: 800px) {
   #theme-body .body-container {
-    height: calc(3300px + 40vw)
+    height: calc(1600px + 40vw)
   }
 
 
@@ -433,8 +434,8 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-16px);
-    height: calc(1870px + 80vw);
-    min-height: 2180px;
+    height: calc(1000px + 80vw);
+    min-height: 1300px;
   }
 
   /* background */
@@ -461,7 +462,8 @@
 
   #theme-body .body-container .body-box p {
     font-size: 0.8rem;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.04rem;
+    line-height: 1.3rem;
   }
 
   #theme-body .body-container .body-box h2 {
