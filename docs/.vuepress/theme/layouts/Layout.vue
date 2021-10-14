@@ -48,8 +48,11 @@
           </p>
           <h2>LOCATION · 举办地点</h2>
           <p>{{ location }}</p>
+          <p>（可关注B站 <a href="https://space.bilibili.com/630975201" target="_blank">VueShenZhen</a> 获取直播入口）</p>
           <h2>GUEST SPEAKER · 邀请嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
+          <h2>Questions · 内容征集</h2>
+          <p>活动形式为线上问答，您可以在<a href="https://www.wjx.cn/vj/YD9swZ9.aspx" target="_blank"> VueShenZhen 收集问卷</a>中留下您感兴趣的问题，活动嘉宾将在直播线上为您解答。</p>
           <h2 style="margin-bottom: 8px">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
@@ -90,8 +93,8 @@ export default {
     return {
       description:
         "Vue Shenzhen 是由一群 Vue.js 开发爱好者自发成立的位于深圳的本地组织，旨在将热情的 Vue.js 开发人员联系起来共同学习和成长。",
-      location: "线上访谈（届时开放直播入口）",
-      guide: "",
+      location: "线上访谈",
+      guide: "https://space.bilibili.com/630975201",
       time: "2021年10月28日 周四 19:00",
       contact: "扫码关注 VUE SHENZHEN 公众号",
       hostList: [
