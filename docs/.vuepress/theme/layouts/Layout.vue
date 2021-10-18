@@ -51,7 +51,7 @@
           <p>（关注B站<a href="https://space.bilibili.com/630975201" target="_blank">VueShenZhen</a>获取直播入口）</p>
           <h2>GUEST SPEAKER · 邀请嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
-          <h2>Questions · 内容征集</h2>
+          <h2>QUESTIONS · 内容征集</h2>
           <p>活动形式为线上问答，您可以在<a href="https://www.wjx.cn/vj/YD9swZ9.aspx" target="_blank">VueShenZhen问题收集问卷</a>中留下您感兴趣的问题，活动嘉宾将在直播线上为您解答。</p>
           <h2 style="margin-bottom: 3vw">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
