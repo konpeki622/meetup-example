@@ -39,11 +39,6 @@ module.exports = {
         ['script', {
             src: "/assets/js/tongji-baidu.js"
         }],
-        // 百度地图
-        ['script', {
-            type: 'text/javascript',
-            src: 'https://api.map.baidu.com/api?v=3.0&ak=35EPB0qFsmdCnpPbq6TYkyTAMGyPgEgv'
-        }],
     ],
     plugins: [
         ['sitemap', {

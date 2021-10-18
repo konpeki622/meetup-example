@@ -17,7 +17,7 @@
         <h1>VUE SHENZHEN · 深圳</h1>
         <h5>Meetup</h5>
         <a
-          href="https://www.huodongxing.com/event/4609525326200"
+          href="https://www.huodongxing.com/event/7620150011723"
           target="_blank"
           rel="nofollow"
           >Register now · 立刻报名</a
@@ -48,12 +48,12 @@
           </p>
           <h2>LOCATION · 举办地点</h2>
           <p>{{ location }}</p>
-          <p>（可关注B站 <a href="https://space.bilibili.com/630975201" target="_blank">VueShenZhen</a> 获取直播入口）</p>
+          <p>（关注B站<a href="https://space.bilibili.com/630975201" target="_blank">VueShenZhen</a>获取直播入口）</p>
           <h2>GUEST SPEAKER · 邀请嘉宾</h2>
           <host-list :hosts="hostList"></host-list>
           <h2>Questions · 内容征集</h2>
-          <p>活动形式为线上问答，您可以在<a href="https://www.wjx.cn/vj/YD9swZ9.aspx" target="_blank"> VueShenZhen 收集问卷</a>中留下您感兴趣的问题，活动嘉宾将在直播线上为您解答。</p>
-          <h2 style="margin-bottom: 8px">CONTACT US · 联系我们</h2>
+          <p>活动形式为线上问答，您可以在<a href="https://www.wjx.cn/vj/YD9swZ9.aspx" target="_blank">VueShenZhen问题收集问卷</a>中留下您感兴趣的问题，活动嘉宾将在直播线上为您解答。</p>
+          <h2 style="margin-bottom: 3vw">CONTACT US · 联系我们</h2>
           <div class="body-box-code">
             <img
               alt="vueshenzhen-code"
@@ -132,39 +132,16 @@ export default {
           link: "https://www.bilibili.com/",
           key: "bilibili",
         },
+        {
+          name: "思否",
+          logo: "/assets/images/segmentfault-logo.svg",
+          link: "https://segmentfault.com/",
+          key: "segmentfault",
+        },
       ],
       resultHtml: "",
     };
   },
-
-  mounted() {
-    this.initMap();
-  },
-
-  methods: {
-    initMap: function () {
-      var map = new BMap.Map("mapContainer", {
-        enableRotate: false,
-        enableTilt: false,
-      });
-      var point = new BMap.Point(114.077584, 22.664015);
-      map.centerAndZoom(point, 18);
-      map.enableScrollWheelZoom(true);
-      var walking = new BMap.WalkingRoute(map, {
-        renderOptions: { map: map },
-      });
-      const start = new BMap.Point(114.079317, 22.664187);
-      const end = new BMap.Point(114.076516, 22.664742);
-      walking.search(start, end);
-      walking.setPolylinesSetCallback(function (lines) {
-        for (var line in lines) {
-          lines[line].getPolyline().setStrokeOpacity(0.6);
-        }
-      });
-    },
-  },
-
-  destroyed() {},
 };
 </script>
 

@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
   box-sizing: border-box;
-  min-width: 1065px;
+  min-width: 1440px;
   font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
 }
 
@@ -40,20 +40,20 @@
 
 /* details */
 #theme-banner .banner-container .banner-logo {
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   position: absolute;
   top: calc(36% - 90px);
-  left: calc(50% - 65px);
+  left: calc(50% - 75px);
 }
 
 #theme-banner .banner-container h1 {
   position: absolute;
-  top: 44%;
+  top: 45%;
   width: 100%;
   text-align: center;
   color: #333366;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
 }
@@ -79,7 +79,7 @@
   box-sizing: border-box;
   padding: 0.6rem 1rem;
   position: absolute;
-  top: calc(61% + 40px);
+  top: calc(62% + 40px);
   left: calc(50% - 150px);
   text-align: center;
   vertical-align: middle;
@@ -150,7 +150,7 @@
   position: relative;
   background: #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(2200px + 50vw);
+  height: calc(2050px + 50vw);
   overflow: hidden;
 }
 
@@ -176,7 +176,7 @@
 /* details */
 #theme-body .body-container .body-box {
   width: 100%;
-  padding: 32px 180px;
+  padding: 32px 10vw;
   box-sizing: border-box;
   position: absolute;
   z-index: 2;
@@ -203,7 +203,7 @@
 #theme-body .body-container .body-box a {
   width: 100%;
   text-align: center;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1rem;
   letter-spacing: 0.05rem;
   line-height: 2rem;
@@ -214,9 +214,9 @@
   width: 100%;
   text-align: center;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.8);
-  margin: 85px 0;
+  margin: 70px 0;
   letter-spacing: 0.05rem;
 }
 
@@ -274,9 +274,9 @@
 
 #theme-body .body-container .body-box-sponsor h2 {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.8);
-  margin: 8px 0;
+  margin: 10px 0;
   letter-spacing: 0.05rem;
 }
 
@@ -291,7 +291,7 @@
   /* details */
 
   #theme-banner .banner-container h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   #theme-banner .banner-container h5 {
@@ -316,7 +316,7 @@
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(1800px + 60vw)
+    height: calc(1750px + 60vw)
   }
 
   #theme-body .body-container .body-box {
@@ -337,7 +337,7 @@
 
   #theme-body .body-container .body-box h2 {
     font-size: 1.2rem;
-    margin: 72px 0;
+    margin: 60px 0;
   }
 
   #theme-body .body-container .body-box #mapContainer {
@@ -368,15 +368,15 @@
   }
 
   #theme-body .body-container .body-box-sponsor h2 {
-    font-size: 1rem;
-    margin: 10px 0;
+    font-size: 1.2rem;
+    margin: 20px 0;
   }
 
 }
 
 @media screen and (max-width: 800px) {
   #theme-body .body-container {
-    height: calc(2000px + 40vw)
+    height: calc(2000px + 30vw)
   }
 
 
@@ -456,8 +456,8 @@
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-16px);
-    height: calc(1200px + 80vw);
-    min-height: 1500px;
+    height: calc(1400px + 60vw);
+    min-height: 1700px;
   }
 
   /* background */
@@ -466,7 +466,7 @@
   }
 
   #theme-body .body-container .body-bottom-img {
-    height: auto;
+    height: 15%;
   }
 
   /* details */
@@ -514,7 +514,7 @@
   }
 
   #theme-body .body-container .body-box-sponsor {
-    height: 55vw;
+    height: 17%;
     min-height: 194px;
     gap: 0;
   }

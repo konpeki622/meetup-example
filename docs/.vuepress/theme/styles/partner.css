@@ -34,11 +34,15 @@
     transform: translateY(-5px);
 }
 
+.partner-container .segmentfault {
+    height: 30px;
+}
+
 /* ---------- mobile-large ---------- */
 @media screen and (max-width: 1065px) {
     .partner-container {
         margin: 0;
-        gap: 15px;
+        gap: 5px 15px;
         padding: 0 30px;
     }
 
@@ -61,6 +65,10 @@
     .partner-container .bilibili {
         height: 4vw;
         transform: translateY(-3px);
+    }
+
+    .partner-container .segmentfault {
+        height: 2.5vw;
     }
 }
 
@@ -94,5 +102,9 @@
     .partner-container .bilibili {
         min-height: 24px;
         transform: translateY(-1px);
+    }
+
+    .partner-container .segmentfault {
+        min-height: 15px;
     }
 }
