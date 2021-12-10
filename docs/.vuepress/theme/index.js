@@ -1,3 +1,3 @@
 module.exports = {
-    globalLayout: '/theme/layouts/GlobalLayout.vue'
-}
+  globalLayout: "/theme/layouts/GlobalLayout.vue",
+};

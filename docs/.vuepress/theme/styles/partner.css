@@ -1,110 +1,102 @@
 .partner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 32px 0;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 100%;
-    padding: 0 50px;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  padding: 0 50px;
+  box-sizing: border-box;
 }
 
 .partner-container .partner-logo {
-    width: auto;
-    margin: 10px;
-    flex-shrink: 0;
-    cursor: pointer;
+  width: auto;
+  margin: 10px;
+  flex-shrink: 0;
+  cursor: pointer;
 }
 
 .partner-container .juejin {
-    height: 35px;
+  height: 35px;
 }
 
 .partner-container .huodongx {
-    height: 50px;
+  height: 50px;
 }
 
 .partner-container .oschina {
-    height: 40px;
+  height: 40px;
 }
 
 .partner-container .bilibili {
-    height: 55px;
-    transform: translateY(-5px);
+  height: 55px;
+  transform: translateY(-5px);
 }
 
 .partner-container .segmentfault {
-    height: 30px;
+  height: 30px;
 }
+
 
 /* ---------- mobile-large ---------- */
+
 @media screen and (max-width: 1065px) {
-    .partner-container {
-        margin: 0;
-        gap: 5px 15px;
-        padding: 0 30px;
-    }
-
-    .partner-container .partner-logo {
-        margin: 7.5px;
-    }
-
-    .partner-container .juejin {
-        height: 3vw;
-    }
-
-    .partner-container .huodongx {
-        height: 3.5vw;
-    }
-
-    .partner-container .oschina {
-        height: 3vw;
-    }
-
-    .partner-container .bilibili {
-        height: 4vw;
-        transform: translateY(-3px);
-    }
-
-    .partner-container .segmentfault {
-        height: 2.5vw;
-    }
+  .partner-container {
+    margin: 0;
+    gap: 5px 15px;
+    padding: 0 30px;
+  }
+  .partner-container .partner-logo {
+    margin: 7.5px;
+  }
+  .partner-container .juejin {
+    height: 3vw;
+  }
+  .partner-container .huodongx {
+    height: 3.5vw;
+  }
+  .partner-container .oschina {
+    height: 3vw;
+  }
+  .partner-container .bilibili {
+    height: 4vw;
+    transform: translateY(-3px);
+  }
+  .partner-container .segmentfault {
+    height: 2.5vw;
+  }
 }
 
+
 /* ---------- mobile-middle ---------- */
+
 @media screen and (max-width: 620px) {
-    .partner-container {
-        margin: 0;
-        gap: 5px;
-        padding: 0 10px;
-    }
-
-    .partner-container .partner-logo {
-        min-height: 15px;
-        width: auto;
-        margin: 5px 10px;
-        flex-shrink: 0;
-    }
-
-    .partner-container .juejin {
-        min-height: 15px;
-    }
-
-    .partner-container .huodongx {
-        min-height: 21px;
-    }
-
-    .partner-container .oschina {
-        min-height: 18px;
-    }
-
-    .partner-container .bilibili {
-        min-height: 24px;
-        transform: translateY(-1px);
-    }
-
-    .partner-container .segmentfault {
-        min-height: 15px;
-    }
+  .partner-container {
+    margin: 0;
+    gap: 5px;
+    padding: 0 10px;
+  }
+  .partner-container .partner-logo {
+    min-height: 15px;
+    width: auto;
+    margin: 5px 10px;
+    flex-shrink: 0;
+  }
+  .partner-container .juejin {
+    min-height: 15px;
+  }
+  .partner-container .huodongx {
+    min-height: 21px;
+  }
+  .partner-container .oschina {
+    min-height: 18px;
+  }
+  .partner-container .bilibili {
+    min-height: 24px;
+    transform: translateY(-1px);
+  }
+  .partner-container .segmentfault {
+    min-height: 15px;
+  }
 }

@@ -7,8 +7,12 @@
   font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
 }
 
+
 /* ---------- banner ---------- */
+
+
 /* background */
+
 #theme-banner {
   position: relative;
 }
@@ -35,10 +39,12 @@
   width: 70%;
   height: 100%;
   object-fit: cover;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(0, 0, 0, .4);
 }
 
+
 /* details */
+
 #theme-banner .banner-container .banner-logo {
   width: 150px;
   height: 150px;
@@ -53,47 +59,47 @@
   width: 100%;
   text-align: center;
   color: #333366;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 600;
-  letter-spacing: 0.1rem;
+  letter-spacing: .05rem;
 }
 
 #theme-banner .banner-container h5 {
   position: absolute;
-  top: 54%;
+  top: 56%;
   width: 100%;
   text-align: center;
   color: #333366;
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0.03rem;
+  letter-spacing: .03rem;
 }
 
 #theme-banner .banner-container a {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
-  letter-spacing: 0.03rem;
+  letter-spacing: .03rem;
   text-decoration: none;
   width: 300px;
   box-sizing: border-box;
-  padding: 0.6rem 1rem;
+  padding: .6rem 1rem;
   position: absolute;
   top: calc(62% + 40px);
   left: calc(50% - 150px);
   text-align: center;
   vertical-align: middle;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, .5);
   border-radius: 32px;
-  background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, .1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
 }
 
 #theme-banner .banner-container a:visited {
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
-  letter-spacing: 0.03rem;
+  letter-spacing: .03rem;
   text-decoration: none;
 }
 
@@ -101,19 +107,23 @@
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
-  letter-spacing: 0.03rem;
+  letter-spacing: .03rem;
   text-decoration: none;
   cursor: pointer;
 }
 
+
 /* ---------- body ---------- */
+
 #theme-body {
   background: linear-gradient(to top, #5299CE, #FFFFFF 80%);
   position: relative;
   padding-bottom: 10vh;
 }
 
+
 /* divider */
+
 #theme-body .body-divider-back {
   transform: translateY(-16px);
   background-color: #41b883;
@@ -128,7 +138,7 @@
   z-index: 99;
   height: 18px;
   width: 100%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .3);
   display: flex;
   justify-content: center;
 }
@@ -138,10 +148,12 @@
   height: 100%;
   width: 70%;
   max-width: 1440px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 
+
 /* content */
+
 #theme-body .body-container {
   transform: translateY(-16px);
   width: 70%;
@@ -149,12 +161,14 @@
   margin: 0 auto;
   position: relative;
   background: #fff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  height: calc(2050px + 50vw);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+  height: calc(1800px + 50vw);
   overflow: hidden;
 }
 
+
 /* background */
+
 #theme-body .body-container .body-top-img {
   position: absolute;
   z-index: 1;
@@ -173,7 +187,9 @@
   left: -35%;
 }
 
+
 /* details */
+
 #theme-body .body-container .body-box {
   width: 100%;
   padding: 32px 10vw;
@@ -186,18 +202,18 @@
   width: 1.1rem;
   height: 1.1rem;
   margin-right: 1rem;
-  transform: translateY(0.2rem);
+  transform: translateY(.2rem);
 }
-
 
 #theme-body .body-container .body-box p {
   width: 100%;
   text-align: center;
   font-weight: 300;
   font-size: 1rem;
-  letter-spacing: 0.05rem;
-  line-height: 2rem;
-  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: .03rem;
+  line-height: 2.4rem;
+  color: rgba(0, 0, 0, .6);
+  margin: 0;
 }
 
 #theme-body .body-container .body-box a {
@@ -205,9 +221,9 @@
   text-align: center;
   font-weight: 500;
   font-size: 1rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: .05rem;
   line-height: 2rem;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, .6);
 }
 
 #theme-body .body-container .body-box h2 {
@@ -215,9 +231,9 @@
   text-align: center;
   font-weight: 600;
   font-size: 1.4rem;
-  color: rgba(0, 0, 0, 0.8);
-  margin: 70px 0;
-  letter-spacing: 0.05rem;
+  color: rgba(0, 0, 0, .8);
+  margin: 40px 0;
+  letter-spacing: .03rem;
 }
 
 #theme-body .body-container .body-box .map-flex {
@@ -249,7 +265,7 @@
 
 #theme-body .body-container .body-box .body-box-code .body-box-code-slogan {
   transform: translateY(-30%);
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-weight: 300;
 }
 
@@ -268,149 +284,113 @@
 #theme-body .body-container .body-box-sponsor p {
   font-weight: 300;
   font-size: 1rem;
-  letter-spacing: 0.04rem;
-  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: .04rem;
+  color: rgba(0, 0, 0, .6);
 }
 
 #theme-body .body-container .body-box-sponsor h2 {
   font-weight: 600;
   font-size: 1.4rem;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, .8);
   margin: 10px 0;
-  letter-spacing: 0.05rem;
+  letter-spacing: .05rem;
 }
 
-/* ---------- mobile-large ---------- */
-@media screen and (max-width: 1065px) {
 
+/* ---------- mobile-large ---------- */
+
+@media screen and (max-width: 1065px) {
   .theme-container {
     min-width: 620px;
   }
-
   /* ---------- banner ---------- */
   /* details */
-
   #theme-banner .banner-container h1 {
     font-size: 1.8rem;
   }
-
   #theme-banner .banner-container h5 {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    top: 55%;
   }
-
   #theme-banner .banner-container a {
     font-size: 1rem;
     width: 320px;
     left: calc(50% - 160px);
   }
-
   #theme-banner .banner-container a:hover {
     font-size: 1rem;
   }
-
   #theme-banner .banner-container a:visited {
     font-size: 1rem;
-
   }
-
   /* ---------- body ---------- */
   /* content */
   #theme-body .body-container {
-    height: calc(1750px + 60vw)
+    height: calc(1950px + 40vw)
   }
-
   #theme-body .body-container .body-box {
     padding: 32px 80px;
   }
-
   #theme-body .body-container .body-top-img {
     top: -5vw;
   }
-
   #theme-body .body-container .body-box p {
-    font-size: 1rem;
+    font-size: .9rem;
+    line-height: 1.8rem;
   }
-
   #theme-body .body-container .body-box a {
-    font-size: 1rem;
+    font-size: .9rem;
   }
-
   #theme-body .body-container .body-box h2 {
     font-size: 1.2rem;
-    margin: 60px 0;
+    margin: 40px 0;
   }
-
   #theme-body .body-container .body-box #mapContainer {
     width: 60vw;
     height: 450px;
   }
-
   #theme-body .body-container .body-box .desc {
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
-
   #theme-body .body-container .body-box .body-box-code .body-box-code-img {
     min-width: 500px;
     width: 130%;
   }
-
   #theme-body .body-container .body-box .body-box-code .body-box-code-slogan {
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
-
   #theme-body .body-container .body-box-sponsor {
     gap: 5px;
   }
-
   #theme-body .body-container .body-box-sponsor p {
     font-size: 1rem;
     margin: 0;
   }
-
   #theme-body .body-container .body-box-sponsor h2 {
     font-size: 1.2rem;
     margin: 20px 0;
   }
-
 }
 
-@media screen and (max-width: 800px) {
-  #theme-body .body-container {
-    height: calc(2000px + 30vw)
-  }
-
-
-  #theme-body .body-container .body-box p {
-    font-size: 0.9rem;
-  }
-
-  #theme-body .body-container .body-box a {
-    font-size: 0.9rem;
-  }
-}
 
 /* ---------- mobile-middle ---------- */
+
 @media screen and (max-width: 620px) {
   .theme-container {
     min-width: 320px;
   }
-
   /* ---------- banner ---------- */
   /* background */
-
   #theme-banner .banner-background-img {
     height: 100vw;
     min-height: 300px;
   }
-
   #theme-banner .banner-container {
     min-height: 255px;
   }
-
   #theme-banner .banner-container .banner-img {
     width: 90%;
   }
-
   /* content */
   #theme-banner .banner-container .banner-logo {
     width: 90px;
@@ -418,114 +398,94 @@
     left: calc(50% - 45px);
     top: calc(40% - 80px);
   }
-
   #theme-banner .banner-container h1 {
-    font-size: 1.1rem;
-    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    letter-spacing: .05rem;
     top: 42%;
   }
-
   #theme-banner .banner-container h5 {
     top: calc(45% + 15px);
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
-
   #theme-banner .banner-container a {
-    font-size: 0.9rem;
+    font-size: .9rem;
     width: 240px;
     left: calc(50% - 120px);
     padding: 6.4px 9.6px;
     top: calc(56% + 32px);
   }
-
   #theme-banner .banner-container a:visited {
-    font-size: 0.9rem;
+    font-size: .9rem;
   }
-
   #theme-banner .banner-container a:hover {
-    font-size: 0.9rem;
+    font-size: .9rem;
   }
-
   /* ---------- body ---------- */
   /* divider */
   #theme-body .body-divider {
     width: 90%;
   }
-
   /* content */
   #theme-body .body-container {
     width: 90%;
     transform: translateY(-16px);
-    height: calc(1400px + 60vw);
-    min-height: 1700px;
+    height: calc(1650px + 40vw);
+    min-height: 1800px;
   }
-
   /* background */
   #theme-body .body-container .body-top-img {
     top: -30px;
   }
-
   #theme-body .body-container .body-bottom-img {
     height: 15%;
   }
-
   /* details */
   #theme-body .body-container .body-box {
     width: 100%;
     padding: 16px;
   }
-
   #theme-body .body-container .body-box .body-box-time-icon {
-    width: 0.9rem;
-    height: 0.9rem;
+    width: .9rem;
+    height: .9rem;
     margin-right: 12px;
-    transform: translateY(0.15rem);
+    transform: translateY(.15rem);
   }
-
   #theme-body .body-container .body-box p {
-    font-size: 0.8rem;
-    letter-spacing: 0.04rem;
-    line-height: 1.3rem;
+    font-size: .8rem;
+    letter-spacing: .04rem;
+    line-height: 1.5rem;
   }
-
   #theme-body .body-container .body-box a {
-    font-size: 0.8rem;
-    letter-spacing: 0.04rem;
+    font-size: .8rem;
+    letter-spacing: .04rem;
     line-height: 1.3rem;
   }
-
   #theme-body .body-container .body-box h2 {
     font-size: 1rem;
-    margin: 48px 0;
-    letter-spacing: 0.02rem;
+    margin: 35px 0;
+    letter-spacing: .02rem;
   }
-
   #theme-body .body-container .body-box .map-flex {
     display: none;
   }
-
   #theme-body .body-container .body-box .body-box-code .body-box-code-img {
     width: 110%;
     min-width: 0;
   }
-
   #theme-body .body-container .body-box .body-box-code .body-box-code-slogan {
     transform: translateY(0);
   }
-
   #theme-body .body-container .body-box-sponsor {
     height: 17%;
     min-height: 194px;
     gap: 0;
   }
-
   #theme-body .body-container .body-box-sponsor p {
-    font-size: 0.8rem;
+    font-size: .8rem;
   }
-
   #theme-body .body-container .body-box-sponsor h2 {
     font-size: 1rem;
     margin: 15px 0;
-    letter-spacing: 0.02rem;
+    letter-spacing: .02rem;
   }
 }

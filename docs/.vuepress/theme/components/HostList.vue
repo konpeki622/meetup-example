@@ -1,6 +1,6 @@
 <template>
   <section class="host-container">
-    <div class="host-box" v-for="host in hosts" :key="host.id">
+    <div class="host-box" v-for="(host, index) in hosts" :key="index">
       <div class="host-portrait">
         <img
           :class="`portrait-img${host.portraitUrl ? '' : '--default'}`"
@@ -13,7 +13,13 @@
         />
       </div>
       <div class="host-detail">
-        <a class="host-text-name" :href="host.link" target="_blank">{{ host.hostName }}</a>
+        <a
+          class="host-text-name"
+          :href="host.link"
+          target="_blank"
+          rel="nofollow"
+          >{{ host.hostName }}</a
+        >
         <div class="host-text-desc" v-if="host.hostDesc">
           {{ host.hostDesc }}
         </div>

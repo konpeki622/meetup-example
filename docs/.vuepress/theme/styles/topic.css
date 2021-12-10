@@ -1,235 +1,215 @@
-.topic-container {
-    margin-bottom: 140px;
-}
+.topic-container {}
 
 .topic-info-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 240px;
-    margin: 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin: 4px 0;
 }
 
 .topic-info-box .topic-host-portrait {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    margin-left: 5vw;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-left: 5vw;
 }
 
 .topic-info-box .topic-process {
-    height: 240px;
-    width: 16px;
-    margin: 0 40px;
-    position: relative;
+  /* equal to box height */
+  height: 150px;
+  width: 16px;
+  margin: 0 40px;
+  position: relative;
 }
 
 .topic-info-box .topic-process .process-previous {
-    position: absolute;
-    top: 0;
-    width: 7px;
-    height: 120px;
-    border-right: 2px dashed #69C5F6;
+  position: absolute;
+  top: 0;
+  width: 7px;
+  /* half box height */
+  height: 75px;
+  border-right: 2px dashed #69C5F6;
 }
 
 .topic-info-box .topic-process .process-node {
-    position: absolute;
-    top: 112px;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: #69C5F6;
+  position: absolute;
+  top: 20px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #69C5F6;
 }
 
 .topic-info-box .topic-process .process-next {
-    position: absolute;
-    bottom: 0;
-    width: 7px;
-    height: 120px;
-    border-right: 2px dashed #69C5F6;
+  position: absolute;
+  bottom: 0;
+  width: 7px;
+  /* half box height */
+  height: 75px;
+  border-right: 2px dashed #69C5F6;
 }
 
 .topic-info-box .topic-detail-box {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    height: 240px;
-    width: 40vw;
-    max-width: 680px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* equal to box height */
+  height: 150px;
+  width: 40vw;
+  max-width: 680px;
 }
 
 .topic-info-box .topic-detail-box .topic-title-flex {
-    display: flex;
-    align-items: flex-end;
-    height: 133px;
-    flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .topic-info-box .topic-detail-box .topic-title-flex h3 {
-    font-size: 1.2rem;
-    margin: 0 20px 0 0;
-    letter-spacing: 0.1rem;
-    font-weight: 500;
-    color: #0066CC;
+  font-size: 1.2rem;
+  margin: 0 20px 0 0;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  color: #0066CC;
 }
 
 .topic-info-box .topic-detail-box .topic-title-flex h4 {
-    font-size: 1.2rem;
-    margin: 0;
-    font-weight: 500;
-    letter-spacing: 0;
-    color: rgba(0, 0, 0, 0.8);
-    text-align: start;
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: start;
 }
 
 .topic-info-box .topic-detail-box .topic-schedule {
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: start;
-    letter-spacing: 0;
-    color: #69C5F6;
-    margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: start;
+  letter-spacing: 0;
+  color: #69C5F6;
+  margin: 0;
 }
 
 .topic-info-box .topic-detail-box .topic-description {
-    font-size: 0.9rem;
-    font-weight: 100;
-    text-align: start;
-    letter-spacing: 0;
-    margin: 0;
+  font-size: 0.9rem;
+  font-weight: 100;
+  text-align: start;
+  letter-spacing: 0;
+  margin: 0;
 }
+
 
 /* ---------- mobile-large ---------- */
+
 @media screen and (max-width: 1065px) {
-
-    .topic-info-box {
-        height: 280px;
-    }
-
-    .topic-info-box .topic-host-portrait {
-        width: 90px;
-        height: 90px;
-        margin-left: 0;
-    }
-
-    .topic-info-box .topic-process {
-        height: 280px;
-    }
-
-    .topic-info-box .topic-process .process-previous {
-        width: 6px;
-        height: 140px;
-    }
-
-    .topic-info-box .topic-process .process-node {
-        height: 14px;
-        width: 14px;
-        top: 133px;
-    }
-
-    .topic-info-box .topic-process .process-next {
-        width: 6px;
-        height: 140px;
-    }
-
-    .topic-info-box .topic-detail-box .topic-title-flex {
-        height: 153px;
-        min-width: 130px;
-    }
-
-    .topic-info-box .topic-detail-box {
-        width: 65%;
-    }
-
-    .topic-info-box .topic-detail-box .topic-title-flex {
-        flex-direction: column;
-        align-items: flex-start;
-        height: 133px;
-        margin-top: 0;
-        justify-content: flex-end;
-    }
-
-    .topic-info-box .topic-detail-box .topic-title-flex h3 {
-        font-size: 1.1rem;
-        margin: 0;
-    }
-
-    .topic-info-box .topic-detail-box .topic-title-flex h4 {
-        font-size: 1.1rem;
-    }
+  .topic-info-box {
+    height: 180px;
+  }
+  .topic-info-box .topic-host-portrait {
+    width: 90px;
+    height: 90px;
+    margin-left: 0;
+  }
+  .topic-info-box .topic-process {
+    height: 180px;
+  }
+  .topic-info-box .topic-process .process-previous {
+    width: 6px;
+    height: 90px;
+  }
+  .topic-info-box .topic-process .process-node {
+    height: 14px;
+    width: 14px;
+    top: 30px;
+  }
+  .topic-info-box .topic-process .process-next {
+    width: 6px;
+    height: 90px;
+  }
+  .topic-info-box .topic-detail-box {
+    width: 65%;
+  }
+  .topic-info-box .topic-detail-box .topic-title-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 33px;
+    min-width: 130px;
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+  .topic-info-box .topic-detail-box .topic-title-flex h3 {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  .topic-info-box .topic-detail-box .topic-title-flex h4 {
+    font-size: 1.1rem;
+  }
 }
 
-@media screen and (max-width: 800px) {
-    .topic-info-box .topic-detail-box {
-        width: 40vw;
-    }
-
-    .topic-info-box .topic-host-portrait {
-        display: none;
-    }
+@media screen and (max-width: 900px) {
+  .topic-info-box .topic-detail-box {
+    width: 40vw;
+  }
+  .topic-info-box .topic-host-portrait {
+    display: none;
+  }
 }
+
 
 /* 手机 */
+
 @media screen and (max-width: 620px) {
-
-    .topic-info-box {
-        height: 180px;
-        margin: 4px 0;
-    }
-
-    .topic-info-box .topic-detail-box {
-        width: 67vw;
-        height: 220px;
-        min-width: 210px;
-        gap: 4px;
-    }
-
-    .topic-info-box .topic-host-portrait {
-        display: none;
-    }
-
-    .topic-info-box .topic-process {
-        height: 220px;
-        width: 12px;
-        margin: 0 16px 0 8px;
-    }
-
-    .topic-info-box .topic-process .process-previous {
-        width: 5px;
-        height: 110px;
-    }
-
-    .topic-info-box .topic-process .process-node {
-        top: 104px;
-        width: 12px;
-        height: 12px;
-    }
-
-    .topic-info-box .topic-process .process-next {
-        width: 5px;
-        height: 110px;
-    }
-
-    .topic-info-box .topic-detail-box .topic-title-flex {
-        height: 121px;
-        margin-top: 0;
-        justify-content: flex-end;
-    }
-
-    .topic-info-box .topic-detail-box .topic-title-flex h3 {
-        font-size: 1rem;
-    }
-
-    .topic-info-box .topic-detail-box .topic-title-flex h4 {
-        font-size: 0.9rem;
-    }
-
-    .topic-info-box .topic-detail-box .topic-schedule {
-        font-size: 0.8rem;
-    }
-    .topic-info-box .topic-detail-box .topic-description {
-        font-size: 0.8rem;
-        overflow: visible;
-    }
+  .topic-info-box {
+    height: 160px;
+    margin: 4px 0;
+  }
+  .topic-info-box .topic-detail-box {
+    width: 67vw;
+    height: 160px;
+    min-width: 210px;
+    gap: 4px;
+  }
+  .topic-info-box .topic-host-portrait {
+    display: none;
+  }
+  .topic-info-box .topic-process {
+    height: 160px;
+    width: 12px;
+    margin: 0 16px 0 8px;
+  }
+  .topic-info-box .topic-process .process-previous {
+    width: 5px;
+    height: 80px;
+  }
+  .topic-info-box .topic-process .process-node {
+    top: 20px;
+    width: 12px;
+    height: 12px;
+  }
+  .topic-info-box .topic-process .process-next {
+    width: 5px;
+    height: 80px;
+  }
+  .topic-info-box .topic-detail-box .topic-title-flex {
+    height: 36px;
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+  .topic-info-box .topic-detail-box .topic-title-flex h3 {
+    font-size: 1rem;
+  }
+  .topic-info-box .topic-detail-box .topic-title-flex h4 {
+    font-size: 0.9rem;
+  }
+  .topic-info-box .topic-detail-box .topic-schedule {
+    font-size: 0.8rem;
+  }
+  .topic-info-box .topic-detail-box .topic-description {
+    font-size: 0.8rem;
+    overflow: visible;
+  }
 }

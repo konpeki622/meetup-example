@@ -1,114 +1,109 @@
 .host-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 10%;
-    margin: 144px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10%;
+  margin: 70px 0;
 }
 
 .host-container .host-box {
-    padding: 30px 32px;
-    width: 220px;
-    min-width: 220px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(45deg, #DBFAAD, #FED8AD);
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+  padding: 30px 32px;
+  width: 220px;
+  min-width: 220px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, #DBFAAD, #FED8AD);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
 }
 
 .host-container .host-box:nth-child(1) {
-    background: linear-gradient(-135deg, #DBFAAD, #FED8AD);
+  background: linear-gradient(-135deg, #DBFAAD, #FED8AD);
 }
 
 .host-container .host-box .host-portrait {
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.2);
-    overflow: hidden;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
 }
 
 .host-container .host-box .host-portrait .portrait-img {
-    width: 90%;
-    height: 90%;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .host-container .host-box .host-portrait .portrait-img--default {
-    transform: translate(0, 10%);
-    height: 90%;
-    width: 90%;
-    object-fit: cover;
+  transform: translate(0, 10%);
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
 }
 
 .host-container .host-box .host-detail {
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-
 .host-container .host-box .host-detail .host-text-name {
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.04rem;
-    color: rgba(0, 0, 0, 0.8);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .host-container .host-box .host-detail .host-text-desc {
-    font-size: 0.9rem;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
 }
+
 
 /* ---------- mobile-large ---------- */
+
 @media screen and (max-width: 1065px) {
-
-    .host-container {
-        margin: 90px 0;
-    }
-
-    .host-container {
-        flex-direction: column;
-        gap: 48px;
-    }
-
+  .host-container {
+    margin: 50px 0;
+  }
+  .host-container {
+    flex-direction: column;
+    gap: 48px;
+  }
 }
 
+
 /* ---------- mobile-middle ---------- */
+
 @media screen and (max-width: 620px) {
-
-    .host-container .host-box .host-detail {
-        margin-top: 16px;
-        gap: 5px;
-    }
-
-    .host-container .host-box {
-        padding: 16px 20px;
-        height: 220px;
-        width: 130px;
-    }
-
-    .host-container .host-box .host-portrait {
-        height: 120px;
-        width: 120px;
-    }
-
-    .host-container .host-box .host-detail .host-text-name {
-        font-size: 0.9rem;
-        letter-spacing: 0.02rem;
-    }
-
-    .host-container .host-box .host-detail .host-text-desc {
-        font-size: 0.8rem;
-    }
+  .host-container .host-box .host-detail {
+    margin-top: 16px;
+    gap: 5px;
+  }
+  .host-container .host-box {
+    padding: 16px 20px;
+    height: 220px;
+    width: 130px;
+  }
+  .host-container .host-box .host-portrait {
+    height: 120px;
+    width: 120px;
+  }
+  .host-container .host-box .host-detail .host-text-name {
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+  }
+  .host-container .host-box .host-detail .host-text-desc {
+    font-size: 0.8rem;
+  }
 }

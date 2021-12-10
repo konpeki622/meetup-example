@@ -1,56 +1,58 @@
 #global-layout {
-    color: #636363;
+  color: #636363;
 }
 
 #global-header {
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
-    border-bottom: 1px solid #efefef;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-bottom: 1px solid #efefef;
 }
 
 #global-header-theme {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 #global-header-logo {}
 
 #global-header-title {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
 #global-header-options {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
+
 
 /* 平板 */
+
 @media screen and (max-width: 960px) {
-    #global-header {
-        padding: 0 20px;
-    }
+  #global-header {
+    padding: 0 20px;
+  }
 }
 
+
 /* 手机 */
+
 @media screen and (max-width: 450px) {
-    #global-header {
-        height: 40px;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 10px;
-        border-bottom: 1px solid #efefef;
-    }
-
-    #global-header-title {
-        font-size: 0.9rem;
-        line-height: 0.9rem;
-    }
-
-    #global-header-options {
-        font-size: 0.8rem;
-        line-height: 0.9rem;
-    }
+  #global-header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid #efefef;
+  }
+  #global-header-title {
+    font-size: 0.9rem;
+    line-height: 0.9rem;
+  }
+  #global-header-options {
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+  }
 }
